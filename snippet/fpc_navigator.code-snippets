@@ -1,0 +1,38 @@
+{
+  "FPCCupertinoNavigator": {
+    "prefix": "fpccupertinonavigator",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}CupertinoNavigator extends StatelessWidget {",
+      "  const ${name}CupertinoNavigator({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCCupertinoNavigator();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCNavigator": {
+    "prefix": "fpcnavigator",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Navigator extends StatelessWidget {",
+      "  const ${name}Navigator({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCNavigator();",
+      "  }",
+      "}"
+    ]
+  }
+}

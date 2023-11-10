@@ -1,0 +1,184 @@
+{
+  "name": "flutter-platform-component-snippet",
+  "displayName": "Flutter Platform Component Snippet",
+  "description": "Code faster in Dart language with the help of some prewritten code snippets.",
+  "icon": "asset/logo.png",
+  "version": "1.0.0",
+  "publisher": "IvanGalkin",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "keywords": [
+    "Dart",
+    "Flutter",
+    "Platform",
+    "Component",
+    "Snippets",
+    "snippets",
+    "Snippet",
+    "snippet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivangalkindeveloper/flutter_platform_component_snippet"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_animated.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_app.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_app_bar.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_badge.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_blur.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_bottom_navigation_bar.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_bottom_sheet.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_build_context.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_button.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_card.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_checkbox.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_code_field.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_dialog.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_divider.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_form_field.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_global.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_icon.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_indicator.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_keyboard.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_list.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_list_view.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_navigator.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_padding.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_picker.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_pin_field.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_radio.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_scaffold.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_scrollbar.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_segment_control.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_select_card.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_select_field.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_shimmer.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_slider.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_sliding_segment_control.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_sliver_app_bar.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_snack_bar.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_switch.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": ".snippet/fpc_toggle.code-snippets"
+      }
+    ]
+  }
+}

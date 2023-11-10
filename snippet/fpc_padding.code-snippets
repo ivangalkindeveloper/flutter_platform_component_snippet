@@ -1,0 +1,25 @@
+{
+  "FPCPadding": {
+    "prefix": "fpcpadding",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Padding extends StatelessWidget {",
+      "  const ${name}Padding({",
+      "    super.key,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCPadding(",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "FPCDivider": {
+    "prefix": "fpcdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Divider extends StatelessWidget {",
+      "  const ${name}Divider({",
+      "    super.key,",
+      "    required this.color,",
+      "  });",
+      "",
+      "  final Color color;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCDivider(",
+      "      color: this.color,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGradientDivider": {
+    "prefix": "fpcgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GradientDivider extends StatelessWidget {",
+      "  const ${name}GradientDivider({",
+      "    super.key,",
+      "    required this.gradient,",
+      "  });",
+      "",
+      "  final Gradient gradient;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCGradientDivider(",
+      "      gradient: this.gradient,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentDarkDivider": {
+    "prefix": "fpcaccentdarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentDarkDivider extends StatelessWidget {",
+      "  const ${name}AccentDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerDarkDivider": {
+    "prefix": "fpcdangerdarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerDarkDivider extends StatelessWidget {",
+      "  const ${name}DangerDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyDarkDivider": {
+    "prefix": "fpcgreydarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyDarkDivider extends StatelessWidget {",
+      "  const ${name}GreyDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoDarkDivider": {
+    "prefix": "fpcinfodarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoDarkDivider extends StatelessWidget {",
+      "  const ${name}InfoDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryDarkDivider": {
+    "prefix": "fpcprimarydarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryDarkDivider extends StatelessWidget {",
+      "  const ${name}PrimaryDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryDarkDivider": {
+    "prefix": "fpcsecondarydarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryDarkDivider extends StatelessWidget {",
+      "  const ${name}SecondaryDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessDarkDivider": {
+    "prefix": "fpcsuccessdarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessDarkDivider extends StatelessWidget {",
+      "  const ${name}SuccessDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningDarkDivider": {
+    "prefix": "fpcwarningdarkdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningDarkDivider extends StatelessWidget {",
+      "  const ${name}WarningDarkDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningDarkDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentDivider": {
+    "prefix": "fpcaccentdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentDivider extends StatelessWidget {",
+      "  const ${name}AccentDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCBlackAlwaysDivider": {
+    "prefix": "fpcblackalwaysdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlackAlwaysDivider extends StatelessWidget {",
+      "  const ${name}BlackAlwaysDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCBlackAlwaysDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCBlackDivider": {
+    "prefix": "fpcblackdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlackDivider extends StatelessWidget {",
+      "  const ${name}BlackDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCBlackDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerDivider": {
+    "prefix": "fpcdangerdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerDivider extends StatelessWidget {",
+      "  const ${name}DangerDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyDivider": {
+    "prefix": "fpcgreydivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyDivider extends StatelessWidget {",
+      "  const ${name}GreyDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoDivider": {
+    "prefix": "fpcinfodivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoDivider extends StatelessWidget {",
+      "  const ${name}InfoDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryDivider": {
+    "prefix": "fpcprimarydivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryDivider extends StatelessWidget {",
+      "  const ${name}PrimaryDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryDivider": {
+    "prefix": "fpcsecondarydivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryDivider extends StatelessWidget {",
+      "  const ${name}SecondaryDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessDivider": {
+    "prefix": "fpcsuccessdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessDivider extends StatelessWidget {",
+      "  const ${name}SuccessDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningDivider": {
+    "prefix": "fpcwarningdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningDivider extends StatelessWidget {",
+      "  const ${name}WarningDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWhiteAlwaysDivider": {
+    "prefix": "fpcwhitealwaysdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WhiteAlwaysDivider extends StatelessWidget {",
+      "  const ${name}WhiteAlwaysDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWhiteAlwaysDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWhiteDivider": {
+    "prefix": "fpcwhitedivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WhiteDivider extends StatelessWidget {",
+      "  const ${name}WhiteDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWhiteDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentLightDivider": {
+    "prefix": "fpcaccentlightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentLightDivider extends StatelessWidget {",
+      "  const ${name}AccentLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerLightDivider": {
+    "prefix": "fpcdangerlightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerLightDivider extends StatelessWidget {",
+      "  const ${name}DangerLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyLightDivider": {
+    "prefix": "fpcgreylightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyLightDivider extends StatelessWidget {",
+      "  const ${name}GreyLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoLightDivider": {
+    "prefix": "fpcinfolightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoLightDivider extends StatelessWidget {",
+      "  const ${name}InfoLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryLightDivider": {
+    "prefix": "fpcprimarylightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryLightDivider extends StatelessWidget {",
+      "  const ${name}PrimaryLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryLightDivider": {
+    "prefix": "fpcsecondarylightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryLightDivider extends StatelessWidget {",
+      "  const ${name}SecondaryLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessLightDivider": {
+    "prefix": "fpcsuccesslightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessLightDivider extends StatelessWidget {",
+      "  const ${name}SuccessLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningLightDivider": {
+    "prefix": "fpcwarninglightdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningLightDivider extends StatelessWidget {",
+      "  const ${name}WarningLightDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningLightDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentDarkGradientDivider": {
+    "prefix": "fpcaccentdarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}AccentDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerDarkGradientDivider": {
+    "prefix": "fpcdangerdarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}DangerDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyDarkGradientDivider": {
+    "prefix": "fpcgreydarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}GreyDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoDarkGradientDivider": {
+    "prefix": "fpcinfodarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}InfoDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryDarkGradientDivider": {
+    "prefix": "fpcprimarydarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}PrimaryDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryDarkGradientDivider": {
+    "prefix": "fpcsecondarydarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}SecondaryDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessDarkGradientDivider": {
+    "prefix": "fpcsuccessdarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}SuccessDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningDarkGradientDivider": {
+    "prefix": "fpcwarningdarkgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningDarkGradientDivider extends StatelessWidget {",
+      "  const ${name}WarningDarkGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningDarkGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentGradientDivider": {
+    "prefix": "fpcaccentgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentGradientDivider extends StatelessWidget {",
+      "  const ${name}AccentGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerGradientDivider": {
+    "prefix": "fpcdangergradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerGradientDivider extends StatelessWidget {",
+      "  const ${name}DangerGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyGradientDivider": {
+    "prefix": "fpcgreygradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyGradientDivider extends StatelessWidget {",
+      "  const ${name}GreyGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoGradientDivider": {
+    "prefix": "fpcinfogradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoGradientDivider extends StatelessWidget {",
+      "  const ${name}InfoGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryGradientDivider": {
+    "prefix": "fpcprimarygradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryGradientDivider extends StatelessWidget {",
+      "  const ${name}PrimaryGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryGradientDivider": {
+    "prefix": "fpcsecondarygradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryGradientDivider extends StatelessWidget {",
+      "  const ${name}SecondaryGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessGradientDivider": {
+    "prefix": "fpcsuccessgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessGradientDivider extends StatelessWidget {",
+      "  const ${name}SuccessGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningGradientDivider": {
+    "prefix": "fpcwarninggradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningGradientDivider extends StatelessWidget {",
+      "  const ${name}WarningGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentLightGradientDivider": {
+    "prefix": "fpcaccentlightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentLightGradientDivider extends StatelessWidget {",
+      "  const ${name}AccentLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerLightGradientDivider": {
+    "prefix": "fpcdangerlightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerLightGradientDivider extends StatelessWidget {",
+      "  const ${name}DangerLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyLightGradientDivider": {
+    "prefix": "fpcgreylightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyLightGradientDivider extends StatelessWidget {",
+      "  const ${name}GreyLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoLightGradientDivider": {
+    "prefix": "fpcinfolightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoLightGradientDivider extends StatelessWidget {",
+      "  const ${name}InfoLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryLightGradientDivider": {
+    "prefix": "fpcprimarylightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryLightGradientDivider extends StatelessWidget {",
+      "  const ${name}PrimaryLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryLightGradientDivider": {
+    "prefix": "fpcsecondarylightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryLightGradientDivider extends StatelessWidget {",
+      "  const ${name}SecondaryLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessLightGradientDivider": {
+    "prefix": "fpcsuccesslightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessLightGradientDivider extends StatelessWidget {",
+      "  const ${name}SuccessLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningLightGradientDivider": {
+    "prefix": "fpcwarninglightgradientdivider",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningLightGradientDivider extends StatelessWidget {",
+      "  const ${name}WarningLightGradientDivider({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningLightGradientDivider();",
+      "  }",
+      "}"
+    ]
+  }
+}

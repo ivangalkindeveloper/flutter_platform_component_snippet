@@ -1,0 +1,48 @@
+{
+  "FPCMaterialScrollbar": {
+    "prefix": "fpcmaterialscrollbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}MaterialScrollbar extends StatelessWidget {",
+      "  const ${name}MaterialScrollbar({",
+      "    super.key,",
+      "    required this.super.child,",
+      "  });",
+      "",
+      "  final super.child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCMaterialScrollbar(",
+      "      super.child: this.super.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCScrollbar": {
+    "prefix": "fpcscrollbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Scrollbar extends StatelessWidget {",
+      "  const ${name}Scrollbar({",
+      "    super.key,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCScrollbar(",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

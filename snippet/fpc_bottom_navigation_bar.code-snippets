@@ -1,0 +1,60 @@
+{
+  "FPCBlurBottomNavigationBar": {
+    "prefix": "fpcblurbottomnavigationbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurBottomNavigationBar extends StatelessWidget {",
+      "  const ${name}BlurBottomNavigationBar({",
+      "    super.key,",
+      "    required this.index,",
+      "    required this.onPressed,",
+      "    required this.items,",
+      "  });",
+      "",
+      "  final int index;",
+      "  final ValueChanged<int> onPressed;",
+      "  final List<BottomNavigationBarItem> items;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCBlurBottomNavigationBar(",
+      "      index: this.index,",
+      "      onPressed: this.onPressed,",
+      "      items: this.items,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCBottomNavigationBar": {
+    "prefix": "fpcbottomnavigationbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BottomNavigationBar extends StatelessWidget {",
+      "  const ${name}BottomNavigationBar({",
+      "    super.key,",
+      "    required this.index,",
+      "    required this.onPressed,",
+      "    required this.items,",
+      "  });",
+      "",
+      "  final int index;",
+      "  final ValueChanged<int> onPressed;",
+      "  final List<BottomNavigationBarItem> items;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCBottomNavigationBar(",
+      "      index: this.index,",
+      "      onPressed: this.onPressed,",
+      "      items: this.items,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

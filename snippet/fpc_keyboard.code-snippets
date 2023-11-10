@@ -1,0 +1,25 @@
+{
+  "FPCKeyboard": {
+    "prefix": "fpckeyboard",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Keyboard extends StatelessWidget {",
+      "  const ${name}Keyboard({",
+      "    super.key,",
+      "    required this.onPressed,",
+      "  });",
+      "",
+      "  final void Function(int) onPressed;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCKeyboard(",
+      "      onPressed: this.onPressed,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

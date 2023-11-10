@@ -1,0 +1,62 @@
+{
+  "FPCShowExpandedBottomSheet": {
+    "prefix": "fpcshowexpandedbottomsheet",
+    "body": [
+      "showFPCExpandedBottomSheet(",
+      "  context,",
+      "  child: ,",
+      ");"
+    ]
+  },
+  "FPCShowSmallBottomSheet": {
+    "prefix": "fpcshowsmallbottomsheet",
+    "body": [
+      "showFPCSmallBottomSheet(",
+      "  context,",
+      "  child: ,",
+      ");"
+    ]
+  },
+  "FPCShowDialog": {
+    "prefix": "fpcshowdialog",
+    "body": [
+      "showFPCDialog(",
+      "  context,",
+      "  child: ,",
+      ");"
+    ]
+  },
+  "FPCShowDatePicker": {
+    "prefix": "fpcshowdatepicker",
+    "body": [
+      "showFPCDatePicker(",
+      "  context,",
+      "  cupertinoModalBuilder: (BuildContext context) {},",
+      ");"
+    ]
+  },
+  "FPCShowTimePicker": {
+    "prefix": "fpcshowtimepicker",
+    "body": [
+      "showFPCTimePicker(",
+      "  context,",
+      "  cupertinoModalBuilder: (BuildContext context) {},",
+      ");"
+    ]
+  },
+  "FPCShowSnackBar": {
+    "prefix": "fpcshowsnackbar",
+    "body": [
+      "showFPCSnackBar(",
+      "  context,",
+      "  child: ,",
+      ");"
+    ]
+  },
+  "FPCHideSnackBar": {
+    "prefix": "fpchidesnackbar",
+    "body": [
+      "hideFPCSnackBar(context);"
+    ]
+  }
+}

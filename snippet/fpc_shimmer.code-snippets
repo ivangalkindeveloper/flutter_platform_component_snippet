@@ -1,0 +1,630 @@
+{
+  "FPCGradientShimmer": {
+    "prefix": "fpcgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GradientShimmer extends StatelessWidget {",
+      "  const ${name}GradientShimmer({",
+      "    super.key,",
+      "    required this.backgroundGradient,",
+      "    required this.highlightGradient,",
+      "  });",
+      "",
+      "  final Gradient backgroundGradient;",
+      "  final Gradient highlightGradient;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCGradientShimmer(",
+      "      backgroundGradient: this.backgroundGradient,",
+      "      highlightGradient: this.highlightGradient,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCShimmer": {
+    "prefix": "fpcshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Shimmer extends StatelessWidget {",
+      "  const ${name}Shimmer({",
+      "    super.key,",
+      "    required this.backgroundColor,",
+      "    required this.highlightColor,",
+      "  });",
+      "",
+      "  final Color backgroundColor;",
+      "  final Color highlightColor;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCShimmer(",
+      "      backgroundColor: this.backgroundColor,",
+      "      highlightColor: this.highlightColor,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentDarkShimmer": {
+    "prefix": "fpcaccentdarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentDarkShimmer extends StatelessWidget {",
+      "  const ${name}AccentDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerDarkShimmer": {
+    "prefix": "fpcdangerdarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerDarkShimmer extends StatelessWidget {",
+      "  const ${name}DangerDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyDarkShimmer": {
+    "prefix": "fpcgreydarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyDarkShimmer extends StatelessWidget {",
+      "  const ${name}GreyDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoDarkShimmer": {
+    "prefix": "fpcinfodarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoDarkShimmer extends StatelessWidget {",
+      "  const ${name}InfoDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryDarkShimmer": {
+    "prefix": "fpcprimarydarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryDarkShimmer extends StatelessWidget {",
+      "  const ${name}PrimaryDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryDarkShimmer": {
+    "prefix": "fpcsecondarydarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryDarkShimmer extends StatelessWidget {",
+      "  const ${name}SecondaryDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessDarkShimmer": {
+    "prefix": "fpcsuccessdarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessDarkShimmer extends StatelessWidget {",
+      "  const ${name}SuccessDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningDarkShimmer": {
+    "prefix": "fpcwarningdarkshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningDarkShimmer extends StatelessWidget {",
+      "  const ${name}WarningDarkShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningDarkShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentShimmer": {
+    "prefix": "fpcaccentshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentShimmer extends StatelessWidget {",
+      "  const ${name}AccentShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerShimmer": {
+    "prefix": "fpcdangershimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerShimmer extends StatelessWidget {",
+      "  const ${name}DangerShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyShimmer": {
+    "prefix": "fpcgreyshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyShimmer extends StatelessWidget {",
+      "  const ${name}GreyShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoShimmer": {
+    "prefix": "fpcinfoshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoShimmer extends StatelessWidget {",
+      "  const ${name}InfoShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryShimmer": {
+    "prefix": "fpcprimaryshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryShimmer extends StatelessWidget {",
+      "  const ${name}PrimaryShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryShimmer": {
+    "prefix": "fpcsecondaryshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryShimmer extends StatelessWidget {",
+      "  const ${name}SecondaryShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessShimmer": {
+    "prefix": "fpcsuccessshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessShimmer extends StatelessWidget {",
+      "  const ${name}SuccessShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningShimmer": {
+    "prefix": "fpcwarningshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningShimmer extends StatelessWidget {",
+      "  const ${name}WarningShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentDarkGradientShimmer": {
+    "prefix": "fpcaccentdarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}AccentDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerDarkGradientShimmer": {
+    "prefix": "fpcdangerdarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}DangerDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyDarkGradientShimmer": {
+    "prefix": "fpcgreydarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}GreyDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoDarkGradientShimmer": {
+    "prefix": "fpcinfodarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}InfoDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryDarkGradientShimmer": {
+    "prefix": "fpcprimarydarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}PrimaryDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryDarkGradientShimmer": {
+    "prefix": "fpcsecondarydarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}SecondaryDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessDarkGradientShimmer": {
+    "prefix": "fpcsuccessdarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}SuccessDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningDarkGradientShimmer": {
+    "prefix": "fpcwarningdarkgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningDarkGradientShimmer extends StatelessWidget {",
+      "  const ${name}WarningDarkGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningDarkGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAccentGradientShimmer": {
+    "prefix": "fpcaccentgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AccentGradientShimmer extends StatelessWidget {",
+      "  const ${name}AccentGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAccentGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCDangerGradientShimmer": {
+    "prefix": "fpcdangergradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DangerGradientShimmer extends StatelessWidget {",
+      "  const ${name}DangerGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDangerGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCGreyGradientShimmer": {
+    "prefix": "fpcgreygradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GreyGradientShimmer extends StatelessWidget {",
+      "  const ${name}GreyGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCGreyGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCInfoGradientShimmer": {
+    "prefix": "fpcinfogradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}InfoGradientShimmer extends StatelessWidget {",
+      "  const ${name}InfoGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCInfoGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCPrimaryGradientShimmer": {
+    "prefix": "fpcprimarygradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}PrimaryGradientShimmer extends StatelessWidget {",
+      "  const ${name}PrimaryGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCPrimaryGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSecondaryGradientShimmer": {
+    "prefix": "fpcsecondarygradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SecondaryGradientShimmer extends StatelessWidget {",
+      "  const ${name}SecondaryGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSecondaryGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSuccessGradientShimmer": {
+    "prefix": "fpcsuccessgradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SuccessGradientShimmer extends StatelessWidget {",
+      "  const ${name}SuccessGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCSuccessGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCWarningGradientShimmer": {
+    "prefix": "fpcwarninggradientshimmer",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}WarningGradientShimmer extends StatelessWidget {",
+      "  const ${name}WarningGradientShimmer({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCWarningGradientShimmer();",
+      "  }",
+      "}"
+    ]
+  }
+}

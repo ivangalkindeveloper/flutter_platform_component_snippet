@@ -1,0 +1,60 @@
+{
+  "FPCGradientSelectField": {
+    "prefix": "fpcgradientselectfield",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}GradientSelectField extends StatelessWidget {",
+      "  const ${name}GradientSelectField({",
+      "    super.key,",
+      "    required this.title,",
+      "    required this.labelText,",
+      "    required this.onPressed,",
+      "  });",
+      "",
+      "  final String? title;",
+      "  final String labelText;",
+      "  final VoidCallback onPressed;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCGradientSelectField(",
+      "      title: this.title,",
+      "      labelText: this.labelText,",
+      "      onPressed: this.onPressed,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSelectField": {
+    "prefix": "fpcselectfield",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SelectField extends StatelessWidget {",
+      "  const ${name}SelectField({",
+      "    super.key,",
+      "    required this.title,",
+      "    required this.labelText,",
+      "    required this.onPressed,",
+      "  });",
+      "",
+      "  final String? title;",
+      "  final String labelText;",
+      "  final VoidCallback onPressed;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCSelectField(",
+      "      title: this.title,",
+      "      labelText: this.labelText,",
+      "      onPressed: this.onPressed,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "FPCBlur": {
+    "prefix": "fpcblur",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Blur extends StatelessWidget {",
+      "  const ${name}Blur({",
+      "    super.key,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCBlur(",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

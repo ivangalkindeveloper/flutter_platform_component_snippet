@@ -1,0 +1,28 @@
+{
+  "FPCDialog": {
+    "prefix": "fpcdialog",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Dialog extends StatelessWidget {",
+      "  const ${name}Dialog({",
+      "    super.key,",
+      "    required this.title,",
+      "    required this.items,",
+      "  });",
+      "",
+      "  final String title;",
+      "  final List<FPCDialogItem> items;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCDialog(",
+      "      title: this.title,",
+      "      items: this.items,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

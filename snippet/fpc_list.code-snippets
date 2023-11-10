@@ -1,0 +1,80 @@
+{
+  "FPCListView": {
+    "prefix": "fpclistview",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ListView extends StatelessWidget {",
+      "  const ${name}ListView({",
+      "    super.key,",
+      "    required this.children,",
+      "    required this.{,",
+      "  });",
+      "",
+      "  final List<Widget> children;",
+      "EdgeInsets _padding({final IFPCSize size}) {",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCListView(",
+      "      children: this.children,",
+      "      {: this.{,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCListRefresh": {
+    "prefix": "fpclistrefresh",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ListRefresh extends StatelessWidget {",
+      "  const ${name}ListRefresh({",
+      "    super.key,",
+      "    required this.controller,",
+      "    required this.onRefresh,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final ScrollController controller;",
+      "  final Future<void> Function() onRefresh;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCListRefresh(",
+      "      controller: this.controller,",
+      "      onRefresh: this.onRefresh,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCListSection": {
+    "prefix": "fpclistsection",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ListSection extends StatelessWidget {",
+      "  const ${name}ListSection({",
+      "    super.key,",
+      "    required this.items,",
+      "  });",
+      "",
+      "  final List<FPCListSectionItem> items;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCListSection(",
+      "      items: this.items,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

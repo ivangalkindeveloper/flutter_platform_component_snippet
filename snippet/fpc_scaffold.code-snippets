@@ -1,0 +1,25 @@
+{
+  "FPCScaffold": {
+    "prefix": "fpcscaffold",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}Scaffold extends StatelessWidget {",
+      "  const ${name}Scaffold({",
+      "    super.key,",
+      "    required this.body,",
+      "  });",
+      "",
+      "  final Widget body;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCScaffold(",
+      "      body: this.body,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

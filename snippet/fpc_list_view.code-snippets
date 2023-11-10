@@ -1,0 +1,28 @@
+{
+  "FPCListView": {
+    "prefix": "fpclistview",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ListView extends StatelessWidget {",
+      "  const ${name}ListView({",
+      "    super.key,",
+      "    required this.children,",
+      "    required this.{,",
+      "  });",
+      "",
+      "  final List<Widget> children;",
+      "EdgeInsets _padding({final IFPCSize size}) {",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCListView(",
+      "      children: this.children,",
+      "      {: this.{,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}

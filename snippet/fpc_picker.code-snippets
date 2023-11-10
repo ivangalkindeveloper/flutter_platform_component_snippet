@@ -1,0 +1,38 @@
+{
+  "FPCDatePicker": {
+    "prefix": "fpcdatepicker",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DatePicker extends StatelessWidget {",
+      "  const ${name}DatePicker({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCDatePicker();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCTimePicker": {
+    "prefix": "fpctimepicker",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}TimePicker extends StatelessWidget {",
+      "  const ${name}TimePicker({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCTimePicker();",
+      "  }",
+      "}"
+    ]
+  }
+}

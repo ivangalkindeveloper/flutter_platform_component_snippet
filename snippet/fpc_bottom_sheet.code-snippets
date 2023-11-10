@@ -1,0 +1,117 @@
+{
+  "FPCActionBottomSheet": {
+    "prefix": "fpcactionbottomsheet",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ActionBottomSheet extends StatelessWidget {",
+      "  const ${name}ActionBottomSheet({",
+      "    super.key,",
+      "    required this.items,",
+      "  });",
+      "",
+      "  final List<FPCActionBottomSheetItem> items;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCActionBottomSheet(",
+      "      items: this.items,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCBlurExpandedBottomSheet": {
+    "prefix": "fpcblurexpandedbottomsheet",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurExpandedBottomSheet extends StatelessWidget {",
+      "  const ${name}BlurExpandedBottomSheet({",
+      "    super.key,",
+      "    required this.body,",
+      "  });",
+      "",
+      "  final Widget body;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCBlurExpandedBottomSheet(",
+      "      body: this.body,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCBlackAlwaysExpandedBottomSheet": {
+    "prefix": "fpcblackalwaysexpandedbottomsheet",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlackAlwaysExpandedBottomSheet extends StatelessWidget {",
+      "  const ${name}BlackAlwaysExpandedBottomSheet({",
+      "    super.key,",
+      "    required this.body,",
+      "  });",
+      "",
+      "  final Widget body;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCBlackAlwaysExpandedBottomSheet(",
+      "      body: this.body,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCExpandedBottomSheet": {
+    "prefix": "fpcexpandedbottomsheet",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ExpandedBottomSheet extends StatelessWidget {",
+      "  const ${name}ExpandedBottomSheet({",
+      "    super.key,",
+      "    required this.body,",
+      "  });",
+      "",
+      "  final Widget body;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCExpandedBottomSheet(",
+      "      body: this.body,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSmallBottomSheet": {
+    "prefix": "fpcsmallbottomsheet",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SmallBottomSheet extends StatelessWidget {",
+      "  const ${name}SmallBottomSheet({",
+      "    super.key,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCSmallBottomSheet(",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}
