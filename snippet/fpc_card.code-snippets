@@ -1963,6 +1963,35 @@
       "}"
     ]
   },
+  "FPCDottedSelectCard": {
+    "prefix": "fpcdottedselectcard",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DottedSelectCard extends StatelessWidget {",
+      "  const ${name}DottedSelectCard({",
+      "    super.key,",
+      "    required this.borderColor,",
+      "    required this.onPressed,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Color borderColor;",
+      "  final VoidCallback onPressed;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCDottedSelectCard(",
+      "      borderColor: this.borderColor,",
+      "      onPressed: this.onPressed,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
   "FPCGradientSelectCard": {
     "prefix": "fpcgradientselectcard",
     "body": [
@@ -2014,35 +2043,6 @@
       "  Widget build(BuildContext context) {",
       "    return FPCSelectCard(",
       "      backgroundColor: this.backgroundColor,",
-      "      onPressed: this.onPressed,",
-      "      child: this.child,",
-      "    );",
-      "  }",
-      "}"
-    ]
-  },
-  "FPCSelectDottedCard": {
-    "prefix": "fpcselectdottedcard",
-    "body": [
-      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
-      "import 'package:flutter/widgets.dart';",
-      "",
-      "class ${name}SelectDottedCard extends StatelessWidget {",
-      "  const ${name}SelectDottedCard({",
-      "    super.key,",
-      "    required this.borderColor,",
-      "    required this.onPressed,",
-      "    required this.child,",
-      "  });",
-      "",
-      "  final Color borderColor;",
-      "  final VoidCallback onPressed;",
-      "  final Widget child;",
-      "",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return FPCSelectDottedCard(",
-      "      borderColor: this.borderColor,",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2830,14 +2830,14 @@
       "}"
     ]
   },
-  "FPCAccentDarkSelectDottedCard": {
-    "prefix": "fpcaccentdarkselectdottedcard",
+  "FPCAccentDarkDottedSelectCard": {
+    "prefix": "fpcaccentdarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}AccentDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}AccentDarkSelectDottedCard({",
+      "class ${name}AccentDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}AccentDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2848,7 +2848,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCAccentDarkSelectDottedCard(",
+      "    return FPCAccentDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2856,14 +2856,14 @@
       "}"
     ]
   },
-  "FPCDangerDarkSelectDottedCard": {
-    "prefix": "fpcdangerdarkselectdottedcard",
+  "FPCDangerDarkDottedSelectCard": {
+    "prefix": "fpcdangerdarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}DangerDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}DangerDarkSelectDottedCard({",
+      "class ${name}DangerDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}DangerDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2874,7 +2874,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCDangerDarkSelectDottedCard(",
+      "    return FPCDangerDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2882,14 +2882,14 @@
       "}"
     ]
   },
-  "FPCGreyDarkSelectDottedCard": {
-    "prefix": "fpcgreydarkselectdottedcard",
+  "FPCGreyDarkDottedSelectCard": {
+    "prefix": "fpcgreydarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}GreyDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}GreyDarkSelectDottedCard({",
+      "class ${name}GreyDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}GreyDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2900,7 +2900,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCGreyDarkSelectDottedCard(",
+      "    return FPCGreyDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2908,14 +2908,14 @@
       "}"
     ]
   },
-  "FPCInfoDarkSelectDottedCard": {
-    "prefix": "fpcinfodarkselectdottedcard",
+  "FPCInfoDarkDottedSelectCard": {
+    "prefix": "fpcinfodarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}InfoDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}InfoDarkSelectDottedCard({",
+      "class ${name}InfoDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}InfoDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2926,7 +2926,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCInfoDarkSelectDottedCard(",
+      "    return FPCInfoDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2934,14 +2934,14 @@
       "}"
     ]
   },
-  "FPCPrimaryDarkSelectDottedCard": {
-    "prefix": "fpcprimarydarkselectdottedcard",
+  "FPCPrimaryDarkDottedSelectCard": {
+    "prefix": "fpcprimarydarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}PrimaryDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}PrimaryDarkSelectDottedCard({",
+      "class ${name}PrimaryDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}PrimaryDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2952,7 +2952,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCPrimaryDarkSelectDottedCard(",
+      "    return FPCPrimaryDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2960,14 +2960,14 @@
       "}"
     ]
   },
-  "FPCSecondaryDarkSelectDottedCard": {
-    "prefix": "fpcsecondarydarkselectdottedcard",
+  "FPCSecondaryDarkDottedSelectCard": {
+    "prefix": "fpcsecondarydarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SecondaryDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}SecondaryDarkSelectDottedCard({",
+      "class ${name}SecondaryDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SecondaryDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -2978,7 +2978,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSecondaryDarkSelectDottedCard(",
+      "    return FPCSecondaryDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -2986,14 +2986,14 @@
       "}"
     ]
   },
-  "FPCSuccessDarkSelectDottedCard": {
-    "prefix": "fpcsuccessdarkselectdottedcard",
+  "FPCSuccessDarkDottedSelectCard": {
+    "prefix": "fpcsuccessdarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SuccessDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}SuccessDarkSelectDottedCard({",
+      "class ${name}SuccessDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SuccessDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3004,7 +3004,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSuccessDarkSelectDottedCard(",
+      "    return FPCSuccessDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3012,14 +3012,14 @@
       "}"
     ]
   },
-  "FPCWarningDarkSelectDottedCard": {
-    "prefix": "fpcwarningdarkselectdottedcard",
+  "FPCWarningDarkDottedSelectCard": {
+    "prefix": "fpcwarningdarkdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}WarningDarkSelectDottedCard extends StatelessWidget {",
-      "  const ${name}WarningDarkSelectDottedCard({",
+      "class ${name}WarningDarkDottedSelectCard extends StatelessWidget {",
+      "  const ${name}WarningDarkDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3030,7 +3030,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCWarningDarkSelectDottedCard(",
+      "    return FPCWarningDarkDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3038,14 +3038,14 @@
       "}"
     ]
   },
-  "FPCAccentSelectDottedCard": {
-    "prefix": "fpcaccentselectdottedcard",
+  "FPCAccentDottedSelectCard": {
+    "prefix": "fpcaccentdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}AccentSelectDottedCard extends StatelessWidget {",
-      "  const ${name}AccentSelectDottedCard({",
+      "class ${name}AccentDottedSelectCard extends StatelessWidget {",
+      "  const ${name}AccentDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3056,7 +3056,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCAccentSelectDottedCard(",
+      "    return FPCAccentDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3064,14 +3064,14 @@
       "}"
     ]
   },
-  "FPCBlackAlwaysSelectDottedCard": {
-    "prefix": "fpcblackalwaysselectdottedcard",
+  "FPCBlackAlwaysDottedSelectCard": {
+    "prefix": "fpcblackalwaysdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}BlackAlwaysSelectDottedCard extends StatelessWidget {",
-      "  const ${name}BlackAlwaysSelectDottedCard({",
+      "class ${name}BlackAlwaysDottedSelectCard extends StatelessWidget {",
+      "  const ${name}BlackAlwaysDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3082,7 +3082,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCBlackAlwaysSelectDottedCard(",
+      "    return FPCBlackAlwaysDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3090,14 +3090,14 @@
       "}"
     ]
   },
-  "FPCBlackSelectDottedCard": {
-    "prefix": "fpcblackselectdottedcard",
+  "FPCBlackDottedSelectCard": {
+    "prefix": "fpcblackdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}BlackSelectDottedCard extends StatelessWidget {",
-      "  const ${name}BlackSelectDottedCard({",
+      "class ${name}BlackDottedSelectCard extends StatelessWidget {",
+      "  const ${name}BlackDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3108,7 +3108,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCBlackSelectDottedCard(",
+      "    return FPCBlackDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3116,14 +3116,14 @@
       "}"
     ]
   },
-  "FPCDangerSelectDottedCard": {
-    "prefix": "fpcdangerselectdottedcard",
+  "FPCDangerDottedSelectCard": {
+    "prefix": "fpcdangerdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}DangerSelectDottedCard extends StatelessWidget {",
-      "  const ${name}DangerSelectDottedCard({",
+      "class ${name}DangerDottedSelectCard extends StatelessWidget {",
+      "  const ${name}DangerDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3134,7 +3134,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCDangerSelectDottedCard(",
+      "    return FPCDangerDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3142,14 +3142,14 @@
       "}"
     ]
   },
-  "FPCGreySelectDottedCard": {
-    "prefix": "fpcgreyselectdottedcard",
+  "FPCGreyDottedSelectCard": {
+    "prefix": "fpcgreydottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}GreySelectDottedCard extends StatelessWidget {",
-      "  const ${name}GreySelectDottedCard({",
+      "class ${name}GreyDottedSelectCard extends StatelessWidget {",
+      "  const ${name}GreyDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3160,7 +3160,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCGreySelectDottedCard(",
+      "    return FPCGreyDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3168,14 +3168,14 @@
       "}"
     ]
   },
-  "FPCInfoSelectDottedCard": {
-    "prefix": "fpcinfoselectdottedcard",
+  "FPCInfoDottedSelectCard": {
+    "prefix": "fpcinfodottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}InfoSelectDottedCard extends StatelessWidget {",
-      "  const ${name}InfoSelectDottedCard({",
+      "class ${name}InfoDottedSelectCard extends StatelessWidget {",
+      "  const ${name}InfoDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3186,7 +3186,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCInfoSelectDottedCard(",
+      "    return FPCInfoDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3194,14 +3194,14 @@
       "}"
     ]
   },
-  "FPCPrimarySelectDottedCard": {
-    "prefix": "fpcprimaryselectdottedcard",
+  "FPCPrimaryDottedSelectCard": {
+    "prefix": "fpcprimarydottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}PrimarySelectDottedCard extends StatelessWidget {",
-      "  const ${name}PrimarySelectDottedCard({",
+      "class ${name}PrimaryDottedSelectCard extends StatelessWidget {",
+      "  const ${name}PrimaryDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3212,7 +3212,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCPrimarySelectDottedCard(",
+      "    return FPCPrimaryDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3220,14 +3220,14 @@
       "}"
     ]
   },
-  "FPCSecondarySelectDottedCard": {
-    "prefix": "fpcsecondaryselectdottedcard",
+  "FPCSecondaryDottedSelectCard": {
+    "prefix": "fpcsecondarydottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SecondarySelectDottedCard extends StatelessWidget {",
-      "  const ${name}SecondarySelectDottedCard({",
+      "class ${name}SecondaryDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SecondaryDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3238,7 +3238,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSecondarySelectDottedCard(",
+      "    return FPCSecondaryDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3246,14 +3246,14 @@
       "}"
     ]
   },
-  "FPCSuccessSelectDottedCard": {
-    "prefix": "fpcsuccessselectdottedcard",
+  "FPCSuccessDottedSelectCard": {
+    "prefix": "fpcsuccessdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SuccessSelectDottedCard extends StatelessWidget {",
-      "  const ${name}SuccessSelectDottedCard({",
+      "class ${name}SuccessDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SuccessDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3264,7 +3264,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSuccessSelectDottedCard(",
+      "    return FPCSuccessDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3272,14 +3272,14 @@
       "}"
     ]
   },
-  "FPCWarningSelectDottedCard": {
-    "prefix": "fpcwarningselectdottedcard",
+  "FPCWarningDottedSelectCard": {
+    "prefix": "fpcwarningdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}WarningSelectDottedCard extends StatelessWidget {",
-      "  const ${name}WarningSelectDottedCard({",
+      "class ${name}WarningDottedSelectCard extends StatelessWidget {",
+      "  const ${name}WarningDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3290,7 +3290,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCWarningSelectDottedCard(",
+      "    return FPCWarningDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3298,14 +3298,14 @@
       "}"
     ]
   },
-  "FPCWhiteAlwaysSelectDottedCard": {
-    "prefix": "fpcwhitealwaysselectdottedcard",
+  "FPCWhiteAlwaysDottedSelectCard": {
+    "prefix": "fpcwhitealwaysdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}WhiteAlwaysSelectDottedCard extends StatelessWidget {",
-      "  const ${name}WhiteAlwaysSelectDottedCard({",
+      "class ${name}WhiteAlwaysDottedSelectCard extends StatelessWidget {",
+      "  const ${name}WhiteAlwaysDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3316,7 +3316,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCWhiteAlwaysSelectDottedCard(",
+      "    return FPCWhiteAlwaysDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3324,14 +3324,14 @@
       "}"
     ]
   },
-  "FPCWhiteSelectDottedCard": {
-    "prefix": "fpcwhiteselectdottedcard",
+  "FPCWhiteDottedSelectCard": {
+    "prefix": "fpcwhitedottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}WhiteSelectDottedCard extends StatelessWidget {",
-      "  const ${name}WhiteSelectDottedCard({",
+      "class ${name}WhiteDottedSelectCard extends StatelessWidget {",
+      "  const ${name}WhiteDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3342,7 +3342,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCWhiteSelectDottedCard(",
+      "    return FPCWhiteDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3350,14 +3350,14 @@
       "}"
     ]
   },
-  "FPCAccentLightSelectDottedCard": {
-    "prefix": "fpcaccentlightselectdottedcard",
+  "FPCAccentLightDottedSelectCard": {
+    "prefix": "fpcaccentlightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}AccentLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}AccentLightSelectDottedCard({",
+      "class ${name}AccentLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}AccentLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3368,7 +3368,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCAccentLightSelectDottedCard(",
+      "    return FPCAccentLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3376,14 +3376,14 @@
       "}"
     ]
   },
-  "FPCDangerLightSelectDottedCard": {
-    "prefix": "fpcdangerlightselectdottedcard",
+  "FPCDangerLightDottedSelectCard": {
+    "prefix": "fpcdangerlightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}DangerLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}DangerLightSelectDottedCard({",
+      "class ${name}DangerLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}DangerLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3394,7 +3394,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCDangerLightSelectDottedCard(",
+      "    return FPCDangerLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3402,14 +3402,14 @@
       "}"
     ]
   },
-  "FPCGreyLightSelectDottedCard": {
-    "prefix": "fpcgreylightselectdottedcard",
+  "FPCGreyLightDottedSelectCard": {
+    "prefix": "fpcgreylightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}GreyLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}GreyLightSelectDottedCard({",
+      "class ${name}GreyLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}GreyLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3420,7 +3420,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCGreyLightSelectDottedCard(",
+      "    return FPCGreyLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3428,14 +3428,14 @@
       "}"
     ]
   },
-  "FPCInfoLightSelectDottedCard": {
-    "prefix": "fpcinfolightselectdottedcard",
+  "FPCInfoLightDottedSelectCard": {
+    "prefix": "fpcinfolightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}InfoLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}InfoLightSelectDottedCard({",
+      "class ${name}InfoLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}InfoLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3446,7 +3446,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCInfoLightSelectDottedCard(",
+      "    return FPCInfoLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3454,14 +3454,14 @@
       "}"
     ]
   },
-  "FPCPrimaryLightSelectDottedCard": {
-    "prefix": "fpcprimarylightselectdottedcard",
+  "FPCPrimaryLightDottedSelectCard": {
+    "prefix": "fpcprimarylightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}PrimaryLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}PrimaryLightSelectDottedCard({",
+      "class ${name}PrimaryLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}PrimaryLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3472,7 +3472,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCPrimaryLightSelectDottedCard(",
+      "    return FPCPrimaryLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3480,14 +3480,14 @@
       "}"
     ]
   },
-  "FPCSecondaryLightSelectDottedCard": {
-    "prefix": "fpcsecondarylightselectdottedcard",
+  "FPCSecondaryLightDottedSelectCard": {
+    "prefix": "fpcsecondarylightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SecondaryLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}SecondaryLightSelectDottedCard({",
+      "class ${name}SecondaryLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SecondaryLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3498,7 +3498,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSecondaryLightSelectDottedCard(",
+      "    return FPCSecondaryLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3506,14 +3506,14 @@
       "}"
     ]
   },
-  "FPCSuccessLightSelectDottedCard": {
-    "prefix": "fpcsuccesslightselectdottedcard",
+  "FPCSuccessLightDottedSelectCard": {
+    "prefix": "fpcsuccesslightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SuccessLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}SuccessLightSelectDottedCard({",
+      "class ${name}SuccessLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}SuccessLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3524,7 +3524,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCSuccessLightSelectDottedCard(",
+      "    return FPCSuccessLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",
@@ -3532,14 +3532,14 @@
       "}"
     ]
   },
-  "FPCWarningLightSelectDottedCard": {
-    "prefix": "fpcwarninglightselectdottedcard",
+  "FPCWarningLightDottedSelectCard": {
+    "prefix": "fpcwarninglightdottedselectcard",
     "body": [
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}WarningLightSelectDottedCard extends StatelessWidget {",
-      "  const ${name}WarningLightSelectDottedCard({",
+      "class ${name}WarningLightDottedSelectCard extends StatelessWidget {",
+      "  const ${name}WarningLightDottedSelectCard({",
       "    super.key,",
       "    required this.onPressed,",
       "    required this.child,",
@@ -3550,7 +3550,7 @@
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCWarningLightSelectDottedCard(",
+      "    return FPCWarningLightDottedSelectCard(",
       "      onPressed: this.onPressed,",
       "      child: this.child,",
       "    );",

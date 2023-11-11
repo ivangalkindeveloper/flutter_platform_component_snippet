@@ -1,3 +1,6 @@
+## 1.0.2
+* Dotted card components fixes.
+
 ## 1.0.1
 * Autocomplete fixes.
 
