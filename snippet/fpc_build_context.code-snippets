@@ -8,7 +8,7 @@
   "FPCBuildContextChangeAnimation": {
     "prefix": "fpccontextchangeanimation",
     "body": [
-      "context.fpcChangeAnimation();"
+      "context.fpcChangeAnimation(${animation});"
     ]
   },
   "FPCBuildContextTextStyle": {
@@ -20,7 +20,7 @@
   "FPCBuildContextChangeTextStyle": {
     "prefix": "fpccontextchangetextstyle",
     "body": [
-      "context.fpcChangeTextStyle();"
+      "context.fpcChangeTextStyle(${textstyle});"
     ]
   },
   "FPCBuildContextTimeOfDay": {
@@ -32,7 +32,7 @@
   "FPCBuildContextChangeTimeOfDay": {
     "prefix": "fpccontextchangetimeofday",
     "body": [
-      "context.fpcChangeTimeOfDay();"
+      "context.fpcChangeTimeOfDay(${timeofday});"
     ]
   },
   "FPCBuildContextDateTime": {
@@ -44,7 +44,7 @@
   "FPCBuildContextChangeDateTime": {
     "prefix": "fpccontextchangedatetime",
     "body": [
-      "context.fpcChangeDateTime();"
+      "context.fpcChangeDateTime(${datetime});"
     ]
   },
   "FPCBuildContextDuration": {
@@ -56,7 +56,7 @@
   "FPCBuildContextChangeDuration": {
     "prefix": "fpccontextchangeduration",
     "body": [
-      "context.fpcChangeDuration();"
+      "context.fpcChangeDuration(${duration});"
     ]
   },
   "FPCBuildContextPlatform": {
@@ -68,7 +68,7 @@
   "FPCBuildContextChangePlatform": {
     "prefix": "fpccontextchangeplatform",
     "body": [
-      "context.fpcChangePlatform();"
+      "context.fpcChangePlatform(${platform});"
     ]
   },
   "FPCBuildContextHaptic": {
@@ -80,7 +80,7 @@
   "FPCBuildContextChangeHaptic": {
     "prefix": "fpccontextchangehaptic",
     "body": [
-      "context.fpcChangeHaptic();"
+      "context.fpcChangeHaptic(${haptic});"
     ]
   },
   "FPCBuildContextTheme": {
@@ -92,7 +92,7 @@
   "FPCBuildContextChangeTheme": {
     "prefix": "fpccontextchangetheme",
     "body": [
-      "context.fpcChangeTheme();"
+      "context.fpcChangeTheme(${theme});"
     ]
   },
   "FPCBuildContextSize": {
@@ -104,7 +104,7 @@
   "FPCBuildContextChangeSize": {
     "prefix": "fpccontextchangesize",
     "body": [
-      "context.fpcChangeSize();"
+      "context.fpcChangeSize(${size});"
     ]
   }
 }

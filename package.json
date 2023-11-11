@@ -1,9 +1,9 @@
 {
   "name": "flutter-platform-component-snippet",
   "displayName": "Flutter Platform Component Snippet",
-  "description": "Code faster in Dart language with the help of some prewritten code snippets.",
+  "description": "Fast snippets for flutter_platform_component package.",
   "icon": "asset/logo.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "IvanGalkin",
   "engines": {
     "vscode": "^1.0.0"
@@ -14,8 +14,8 @@
     "Platform",
     "Component",
     "Snippets",
-    "snippets",
     "Snippet",
+    "snippets",
     "snippet"
   ],
   "repository": {

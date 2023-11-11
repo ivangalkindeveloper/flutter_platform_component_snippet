@@ -4,7 +4,7 @@
     "body": [
       "showFPCExpandedBottomSheet(",
       "  context,",
-      "  child: ,",
+      "  child: ${child},",
       ");"
     ]
   },
@@ -13,7 +13,7 @@
     "body": [
       "showFPCSmallBottomSheet(",
       "  context,",
-      "  child: ,",
+      "  child: ${child},",
       ");"
     ]
   },
@@ -22,7 +22,7 @@
     "body": [
       "showFPCDialog(",
       "  context,",
-      "  child: ,",
+      "  child: ${child},",
       ");"
     ]
   },
@@ -31,7 +31,9 @@
     "body": [
       "showFPCDatePicker(",
       "  context,",
-      "  cupertinoModalBuilder: (BuildContext context) {},",
+      "  cupertinoModalBuilder: (BuildContext context) {",
+      "    ${cupertinomodalbuilder}",
+      "  },",
       ");"
     ]
   },
@@ -40,7 +42,9 @@
     "body": [
       "showFPCTimePicker(",
       "  context,",
-      "  cupertinoModalBuilder: (BuildContext context) {},",
+      "  cupertinoModalBuilder: (BuildContext context) {",
+      "    ${cupertinomodalbuilder}",
+      "  },",
       ");"
     ]
   },
@@ -49,7 +53,7 @@
     "body": [
       "showFPCSnackBar(",
       "  context,",
-      "  child: ,",
+      "  child: ${child},",
       ");"
     ]
   },
