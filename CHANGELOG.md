@@ -1,3 +1,6 @@
+## 1.0.4
+* Fix lanuch.
+
 ## 1.0.3
 * Files extension fix.
 

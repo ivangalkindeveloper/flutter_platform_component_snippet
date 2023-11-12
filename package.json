@@ -3,8 +3,9 @@
   "displayName": "Flutter Platform Component Snippet",
   "description": "Fast snippets for flutter_platform_component package.",
   "icon": "asset/logo.png",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "IvanGalkin",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.0.0"
   },
