@@ -1,3 +1,6 @@
+## 1.0.3
+* Files extension fix.
+
 ## 1.0.2
 * Dotted card components fixes.
 

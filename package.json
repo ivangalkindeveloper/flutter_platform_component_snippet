@@ -3,7 +3,7 @@
   "displayName": "Flutter Platform Component Snippet",
   "description": "Fast snippets for flutter_platform_component package.",
   "icon": "asset/logo.png",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "IvanGalkin",
   "engines": {
     "vscode": "^1.0.0"
@@ -29,155 +29,155 @@
     "snippets": [
       {
         "language": "dart",
-        "path": ".snippet/fpc_animated.code-snippets"
+        "path": ".snippet/fpc_animated.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_app.code-snippets"
+        "path": ".snippet/fpc_app.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_app_bar.code-snippets"
+        "path": ".snippet/fpc_app_bar.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_badge.code-snippets"
+        "path": ".snippet/fpc_badge.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_blur.code-snippets"
+        "path": ".snippet/fpc_blur.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_bottom_navigation_bar.code-snippets"
+        "path": ".snippet/fpc_bottom_navigation_bar.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_bottom_sheet.code-snippets"
+        "path": ".snippet/fpc_bottom_sheet.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_build_context.code-snippets"
+        "path": ".snippet/fpc_build_context.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_button.code-snippets"
+        "path": ".snippet/fpc_button.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_card.code-snippets"
+        "path": ".snippet/fpc_card.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_checkbox.code-snippets"
+        "path": ".snippet/fpc_checkbox.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_code_field.code-snippets"
+        "path": ".snippet/fpc_code_field.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_dialog.code-snippets"
+        "path": ".snippet/fpc_dialog.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_divider.code-snippets"
+        "path": ".snippet/fpc_divider.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_form_field.code-snippets"
+        "path": ".snippet/fpc_form_field.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_global.code-snippets"
+        "path": ".snippet/fpc_global.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_icon.code-snippets"
+        "path": ".snippet/fpc_icon.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_indicator.code-snippets"
+        "path": ".snippet/fpc_indicator.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_keyboard.code-snippets"
+        "path": ".snippet/fpc_keyboard.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_list.code-snippets"
+        "path": ".snippet/fpc_list.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_list_view.code-snippets"
+        "path": ".snippet/fpc_list_view.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_navigator.code-snippets"
+        "path": ".snippet/fpc_navigator.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_padding.code-snippets"
+        "path": ".snippet/fpc_padding.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_picker.code-snippets"
+        "path": ".snippet/fpc_picker.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_pin_field.code-snippets"
+        "path": ".snippet/fpc_pin_field.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_radio.code-snippets"
+        "path": ".snippet/fpc_radio.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_scaffold.code-snippets"
+        "path": ".snippet/fpc_scaffold.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_scrollbar.code-snippets"
+        "path": ".snippet/fpc_scrollbar.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_segment_control.code-snippets"
+        "path": ".snippet/fpc_segment_control.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_select_card.code-snippets"
+        "path": ".snippet/fpc_select_card.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_select_field.code-snippets"
+        "path": ".snippet/fpc_select_field.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_shimmer.code-snippets"
+        "path": ".snippet/fpc_shimmer.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_slider.code-snippets"
+        "path": ".snippet/fpc_slider.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_sliding_segment_control.code-snippets"
+        "path": ".snippet/fpc_sliding_segment_control.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_sliver_app_bar.code-snippets"
+        "path": ".snippet/fpc_sliver_app_bar.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_snack_bar.code-snippets"
+        "path": ".snippet/fpc_snack_bar.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_switch.code-snippets"
+        "path": ".snippet/fpc_switch.json"
       },
       {
         "language": "dart",
-        "path": ".snippet/fpc_toggle.code-snippets"
+        "path": ".snippet/fpc_toggle.json"
       }
     ]
   }
