@@ -1,5 +1,11 @@
-## 1.0.4
+## 1.0.6
+* Fix properties.
+
+## 1.0.5
 * Fix lanuch.
+
+## 1.0.4
+* Fix launch.
 
 ## 1.0.3
 * Files extension fix.

@@ -31,8 +31,8 @@
     "body": [
       "showFPCDatePicker(",
       "  context,",
-      "  cupertinoModalBuilder: (BuildContext context) {",
-      "    ${cupertinomodalbuilder}",
+      "  cupertinoBottomSheetBuilder: (BuildContext context) {",
+      "    ${cupertinobottomsheetbuilder}",
       "  },",
       ");"
     ]
@@ -42,8 +42,8 @@
     "body": [
       "showFPCTimePicker(",
       "  context,",
-      "  cupertinoModalBuilder: (BuildContext context) {",
-      "    ${cupertinomodalbuilder}",
+      "  cupertinoBottomSheetBuilder: (BuildContext context) {",
+      "    ${cupertinobottomsheetbuilder}",
       "  },",
       ");"
     ]
