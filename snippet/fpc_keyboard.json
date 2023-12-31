@@ -21,5 +21,57 @@
       "  }",
       "}"
     ]
+  },
+  "FPCKeyboardButton": {
+    "prefix": "fpckeyboardbutton",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}KeyboardButton extends StatelessWidget {",
+      "  const ${name}KeyboardButton({",
+      "    super.key,",
+      "    required this.onPressed,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final VoidCallback onPressed;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCKeyboardButton(",
+      "      onPressed: this.onPressed,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCKeyboardNumberButton": {
+    "prefix": "fpckeyboardnumberbutton",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}KeyboardNumberButton extends StatelessWidget {",
+      "  const ${name}KeyboardNumberButton({",
+      "    super.key,",
+      "    required this.onPressed,",
+      "    required this.number,",
+      "  });",
+      "",
+      "  final VoidCallback onPressed;",
+      "  final int number;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCKeyboardNumberButton(",
+      "      onPressed: this.onPressed,",
+      "      number: this.number,",
+      "    );",
+      "  }",
+      "}"
+    ]
   }
 }

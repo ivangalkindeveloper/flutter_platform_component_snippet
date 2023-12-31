@@ -2,7 +2,7 @@
   "FPCBuildContextAnimation": {
     "prefix": "fpccontextanimation",
     "body": [
-      "final IFPCAnimation animation = context.fpcAnimation;"
+      "final FPCAnimation animation = context.fpcAnimation;"
     ]
   },
   "FPCBuildContextChangeAnimation": {
@@ -11,34 +11,10 @@
       "context.fpcChangeAnimation(${animation});"
     ]
   },
-  "FPCBuildContextTextStyle": {
-    "prefix": "fpccontexttextstyle",
-    "body": [
-      "final IFPCTextStyle textStyle = context.fpcTextStyle;"
-    ]
-  },
-  "FPCBuildContextChangeTextStyle": {
-    "prefix": "fpccontextchangetextstyle",
-    "body": [
-      "context.fpcChangeTextStyle(${textstyle});"
-    ]
-  },
-  "FPCBuildContextTimeOfDay": {
-    "prefix": "fpccontexttimeofday",
-    "body": [
-      "final IFPCTimeOfDay timeOfDay = context.fpcTimeOfDay;"
-    ]
-  },
-  "FPCBuildContextChangeTimeOfDay": {
-    "prefix": "fpccontextchangetimeofday",
-    "body": [
-      "context.fpcChangeTimeOfDay(${timeofday});"
-    ]
-  },
   "FPCBuildContextDateTime": {
     "prefix": "fpccontextdatetime",
     "body": [
-      "final IFPCDateTime dateTime = context.fpcDateTime;"
+      "final FPCDateTime dateTime = context.fpcDateTime;"
     ]
   },
   "FPCBuildContextChangeDateTime": {
@@ -50,13 +26,37 @@
   "FPCBuildContextDuration": {
     "prefix": "fpccontextduration",
     "body": [
-      "final IFPCDuration duration = context.fpcDuration;"
+      "final FPCDuration duration = context.fpcDuration;"
     ]
   },
   "FPCBuildContextChangeDuration": {
     "prefix": "fpccontextchangeduration",
     "body": [
       "context.fpcChangeDuration(${duration});"
+    ]
+  },
+  "FPCBuildContextFont": {
+    "prefix": "fpccontexttextstyle",
+    "body": [
+      "final FPCFont font = context.fpcFont;"
+    ]
+  },
+  "FPCBuildContextChangeFont": {
+    "prefix": "fpccontextchangetextstyle",
+    "body": [
+      "context.fpcChangeFont(${font});"
+    ]
+  },
+  "FPCBuildContextHaptic": {
+    "prefix": "fpccontexthaptic",
+    "body": [
+      "final FPCHaptic haptic = context.fpcHaptic;"
+    ]
+  },
+  "FPCBuildContextChangeHaptic": {
+    "prefix": "fpccontextchangehaptic",
+    "body": [
+      "context.fpcChangeHaptic(${haptic});"
     ]
   },
   "FPCBuildContextPlatform": {
@@ -71,22 +71,22 @@
       "context.fpcChangePlatform(${platform});"
     ]
   },
-  "FPCBuildContextHaptic": {
-    "prefix": "fpccontexthaptic",
+  "FPCBuildContextSize": {
+    "prefix": "fpccontextsize",
     "body": [
-      "final IFPCHaptic haptic = context.fpcHaptic;"
+      "final FPCSize size = context.fpcSize;"
     ]
   },
-  "FPCBuildContextChangeHaptic": {
-    "prefix": "fpccontextchangehaptic",
+  "FPCBuildContextChangeSize": {
+    "prefix": "fpccontextchangesize",
     "body": [
-      "context.fpcChangeHaptic(${haptic});"
+      "context.fpcChangeSize(${size});"
     ]
   },
   "FPCBuildContextTheme": {
     "prefix": "fpccontexttheme",
     "body": [
-      "final IFPCTheme theme = context.fpcTheme;"
+      "final FPCTheme theme = context.fpcTheme;"
     ]
   },
   "FPCBuildContextChangeTheme": {
@@ -95,16 +95,16 @@
       "context.fpcChangeTheme(${theme});"
     ]
   },
-  "FPCBuildContextSize": {
-    "prefix": "fpccontextsize",
+  "FPCBuildContextTimeOfDay": {
+    "prefix": "fpccontexttimeofday",
     "body": [
-      "final IFPCSize size = context.fpcSize;"
+      "final FPCTimeOfDay timeOfDay = context.fpcTimeOfDay;"
     ]
   },
-  "FPCBuildContextChangeSize": {
-    "prefix": "fpccontextchangesize",
+  "FPCBuildContextChangeTimeOfDay": {
+    "prefix": "fpccontextchangetimeofday",
     "body": [
-      "context.fpcChangeSize(${size});"
+      "context.fpcChangeTimeOfDay(${timeofday});"
     ]
   }
 }

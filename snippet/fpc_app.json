@@ -1,4 +1,65 @@
 {
+  "FPCDisabledWrapper": {
+    "prefix": "fpcdisabledwrapper",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}DisabledWrapper extends StatelessWidget {",
+      "  const ${name}DisabledWrapper({",
+      "    super.key,",
+      "    required this.isDisabled,",
+      "    required this.children,",
+      "  });",
+      "",
+      "  final bool isDisabled;",
+      "  final List<Widget> children;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCDisabledWrapper(",
+      "      isDisabled: this.isDisabled,",
+      "      children: this.children,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSelectFieldWrapper": {
+    "prefix": "fpcselectfieldwrapper",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SelectFieldWrapper extends StatelessWidget {",
+      "  const ${name}SelectFieldWrapper({",
+      "    super.key,",
+      "    required this.splashColor,",
+      "    required this.borderRadius,",
+      "    required this.onPressed,",
+      "    required this.isDisabled,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Color? splashColor;",
+      "  final BorderRadius borderRadius;",
+      "  final VoidCallback onPressed;",
+      "  final bool isDisabled;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCSelectFieldWrapper(",
+      "      splashColor: this.splashColor,",
+      "      borderRadius: this.borderRadius,",
+      "      onPressed: this.onPressed,",
+      "      isDisabled: this.isDisabled,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
   "FPCApp": {
     "prefix": "fpcapp",
     "body": [
@@ -14,6 +75,185 @@
       "  Widget build(BuildContext context) {",
       "    return const FPCApp();",
       "  }",
+      "}"
+    ]
+  },
+  "FPCAppRouter": {
+    "prefix": "fpcapprouter",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AppRouter extends StatelessWidget {",
+      "  const ${name}AppRouter({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const FPCAppRouter();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAppBar": {
+    "prefix": "fpcappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AppBar extends FPCAppBar {",
+      "  const ${name}AppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlurAppBar": {
+    "prefix": "fpcblurappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurAppBar extends FPCBlurAppBar {",
+      "  const ${name}BlurAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlurBlackAlwaysExpandedBottomSheetAppBar": {
+    "prefix": "fpcblurblackalwaysexpandedbottomsheetappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurBlackAlwaysExpandedBottomSheetAppBar extends FPCBlurBlackAlwaysExpandedBottomSheetAppBar {",
+      "  const ${name}BlurBlackAlwaysExpandedBottomSheetAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlurExpandedBottomSheetAppBar": {
+    "prefix": "fpcblurexpandedbottomsheetappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurExpandedBottomSheetAppBar extends FPCBlurExpandedBottomSheetAppBar {",
+      "  const ${name}BlurExpandedBottomSheetAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlurBlackAlwaysScreenAppBar": {
+    "prefix": "fpcblurblackalwaysscreenappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurBlackAlwaysScreenAppBar extends FPCBlurBlackAlwaysScreenAppBar {",
+      "  const ${name}BlurBlackAlwaysScreenAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlurScreenAppBar": {
+    "prefix": "fpcblurscreenappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlurScreenAppBar extends FPCBlurScreenAppBar {",
+      "  const ${name}BlurScreenAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlackAlwaysExpandedBottomSheetAppBar": {
+    "prefix": "fpcblackalwaysexpandedbottomsheetappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlackAlwaysExpandedBottomSheetAppBar extends FPCBlackAlwaysExpandedBottomSheetAppBar {",
+      "  const ${name}BlackAlwaysExpandedBottomSheetAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCExpandedBottomSheetAppBar": {
+    "prefix": "fpcexpandedbottomsheetappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ExpandedBottomSheetAppBar extends FPCExpandedBottomSheetAppBar {",
+      "  const ${name}ExpandedBottomSheetAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCBlackAlwaysScreenAppBar": {
+    "prefix": "fpcblackalwaysscreenappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}BlackAlwaysScreenAppBar extends FPCBlackAlwaysScreenAppBar {",
+      "  const ${name}BlackAlwaysScreenAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "FPCScreenAppBar": {
+    "prefix": "fpcscreenappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}ScreenAppBar extends FPCScreenAppBar {",
+      "  const ${name}ScreenAppBar(",
+      "    super.context,",
+      "  );",
+      "}"
+    ]
+  },
+  "class": {
+    "prefix": "class",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}class extends StatelessWidget {",
+      "  const ${name}class({",
+      "    super.key,",
+      "  });",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return const class();",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCSliverAppBar": {
+    "prefix": "fpcsliverappbar",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SliverAppBar extends FPCSliverAppBar {",
+      "  const ${name}SliverAppBar(",
+      "    super.context,",
+      "  );",
       "}"
     ]
   }

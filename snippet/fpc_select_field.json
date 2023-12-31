@@ -1,4 +1,39 @@
 {
+  "FPCSelectFieldWrapper": {
+    "prefix": "fpcselectfieldwrapper",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}SelectFieldWrapper extends StatelessWidget {",
+      "  const ${name}SelectFieldWrapper({",
+      "    super.key,",
+      "    required this.splashColor,",
+      "    required this.borderRadius,",
+      "    required this.onPressed,",
+      "    required this.isDisabled,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final Color? splashColor;",
+      "  final BorderRadius borderRadius;",
+      "  final VoidCallback onPressed;",
+      "  final bool isDisabled;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCSelectFieldWrapper(",
+      "      splashColor: this.splashColor,",
+      "      borderRadius: this.borderRadius,",
+      "      onPressed: this.onPressed,",
+      "      isDisabled: this.isDisabled,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
   "FPCGradientSelectField": {
     "prefix": "fpcgradientselectfield",
     "body": [

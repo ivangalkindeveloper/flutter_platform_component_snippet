@@ -7,7 +7,7 @@ This snippets have been generated for [flutter_platform_component](https://pub.d
 Snippets:
 | Prefix | Name of component or function |
 | - | - |
-| fpc_animated.code-snippets
+| fpc_animated.json
 | fpcanimatedalign | FPCAnimatedAlign |
 | fpcanimatedcontainer | FPCAnimatedContainer |
 | fpcanimatedcrossfade | FPCAnimatedCrossFade |
@@ -22,11 +22,18 @@ Snippets:
 | fpcanimatedfadeoutleft | FPCAnimatedFadeOutLeft |
 | fpcanimatedfadeoutright | FPCAnimatedFadeOutRight |
 | fpcanimatedfadeoutup | FPCAnimatedFadeOutUp |
+| fpcanimatedfractionallysizedbox | FPCAnimatedFractionallySizedBox |
 | fpcanimatedopacity | FPCAnimatedOpacity |
 | fpcanimatedopacitystack | FPCAnimatedOpacityStack |
 | fpcanimatedopencontainer | FPCAnimatedOpenContainer |
+| fpcanimatedpadding | FPCAnimatedPadding |
+| fpcanimatedphysicalmodel | FPCAnimatedPhysicalModel |
 | fpcanimatedpositioned | FPCAnimatedPositioned |
+| fpcanimatedpositioneddirectional | FPCAnimatedPositionedDirectional |
+| fpcanimatedrotation | FPCAnimatedRotation |
+| fpcanimatedscale | FPCAnimatedScale |
 | fpcanimatedsize | FPCAnimatedSize |
+| fpcanimatedslide | FPCAnimatedSlide |
 | fpcanimatedswitcher | FPCAnimatedSwitcher |
 | fpcanimatedtransitionswitcher | FPCAnimatedTransitionSwitcher |
 | fpcanimatedfastalign | FPCAnimatedFastAlign |
@@ -43,11 +50,18 @@ Snippets:
 | fpcanimatedfastfadeoutleft | FPCAnimatedFastFadeOutLeft |
 | fpcanimatedfastfadeoutright | FPCAnimatedFastFadeOutRight |
 | fpcanimatedfastfadeoutup | FPCAnimatedFastFadeOutUp |
+| fpcanimatedfastfractionallysizedbox | FPCAnimatedFastFractionallySizedBox |
 | fpcanimatedfastopacity | FPCAnimatedFastOpacity |
 | fpcanimatedfastopacitystack | FPCAnimatedFastOpacityStack |
 | fpcanimatedfastopencontainer | FPCAnimatedFastOpenContainer |
+| fpcanimatedfastpadding | FPCAnimatedFastPadding |
+| fpcanimatedfastphysicalmodel | FPCAnimatedFastPhysicalModel |
 | fpcanimatedfastpositioned | FPCAnimatedFastPositioned |
+| fpcanimatedfastpositioneddirectional | FPCAnimatedFastPositionedDirectional |
+| fpcanimatedfastrotation | FPCAnimatedFastRotation |
+| fpcanimatedfastscale | FPCAnimatedFastScale |
 | fpcanimatedfastsize | FPCAnimatedFastSize |
+| fpcanimatedfastslide | FPCAnimatedFastSlide |
 | fpcanimatedfastswitcher | FPCAnimatedFastSwitcher |
 | fpcanimatedfasttransitionswitcher | FPCAnimatedFastTransitionSwitcher |
 | fpcanimatedslowalign | FPCAnimatedSlowAlign |
@@ -64,32 +78,54 @@ Snippets:
 | fpcanimatedslowfadeoutleft | FPCAnimatedSlowFadeOutLeft |
 | fpcanimatedslowfadeoutright | FPCAnimatedSlowFadeOutRight |
 | fpcanimatedslowfadeoutup | FPCAnimatedSlowFadeOutUp |
+| fpcanimatedslowfractionallysizedbox | FPCAnimatedSlowFractionallySizedBox |
 | fpcanimatedslowopacity | FPCAnimatedSlowOpacity |
 | fpcanimatedslowopacitystack | FPCAnimatedSlowOpacityStack |
 | fpcanimatedslowopencontainer | FPCAnimatedSlowOpenContainer |
+| fpcanimatedslowpadding | FPCAnimatedSlowPadding |
+| fpcanimatedslowphysicalmodel | FPCAnimatedSlowPhysicalModel |
 | fpcanimatedslowpositioned | FPCAnimatedSlowPositioned |
+| fpcanimatedslowpositioneddirectional | FPCAnimatedSlowPositionedDirectional |
+| fpcanimatedslowrotation | FPCAnimatedSlowRotation |
+| fpcanimatedslowscale | FPCAnimatedSlowScale |
 | fpcanimatedslowsize | FPCAnimatedSlowSize |
+| fpcanimatedslowslide | FPCAnimatedSlowSlide |
 | fpcanimatedslowswitcher | FPCAnimatedSlowSwitcher |
 | fpcanimatedslowtransitionswitcher | FPCAnimatedSlowTransitionSwitcher |
 |||
-| fpc_app.code-snippets
+| fpc_app.json
+| fpcdisabledwrapper | FPCDisabledWrapper |
+| fpcselectfieldwrapper | FPCSelectFieldWrapper |
 | fpcapp | FPCApp |
-|||
-| fpc_app_bar.code-snippets
+| fpcapprouter | FPCAppRouter |
 | fpcappbar | FPCAppBar |
 | fpcblurappbar | FPCBlurAppBar |
+| fpcblurblackalwaysexpandedbottomsheetappbar | FPCBlurBlackAlwaysExpandedBottomSheetAppBar |
 | fpcblurexpandedbottomsheetappbar | FPCBlurExpandedBottomSheetAppBar |
-| fpcblurwhitealwaysexpandedbottomsheetappbar | FPCBlurWhiteAlwaysExpandedBottomSheetAppBar |
+| fpcblurblackalwaysscreenappbar | FPCBlurBlackAlwaysScreenAppBar |
 | fpcblurscreenappbar | FPCBlurScreenAppBar |
-| fpcblurwhitealwaysscreenappbar | FPCBlurWhiteAlwaysScreenAppBar |
+| fpcblackalwaysexpandedbottomsheetappbar | FPCBlackAlwaysExpandedBottomSheetAppBar |
 | fpcexpandedbottomsheetappbar | FPCExpandedBottomSheetAppBar |
-| fpcwhitealwaysexpandedbottomsheetappbar | FPCWhiteAlwaysExpandedBottomSheetAppBar |
+| fpcblackalwaysscreenappbar | FPCBlackAlwaysScreenAppBar |
 | fpcscreenappbar | FPCScreenAppBar |
-| fpcwhitealwaysscreenappbar | FPCWhiteAlwaysScreenAppBar |
-| fpcplatformappbar | FPCPlatformAppBar |
+| class | class |
 | fpcsliverappbar | FPCSliverAppBar |
 |||
-| fpc_badge.code-snippets
+| fpc_app_bar.json
+| fpcappbar | FPCAppBar |
+| fpcblurappbar | FPCBlurAppBar |
+| fpcblurblackalwaysexpandedbottomsheetappbar | FPCBlurBlackAlwaysExpandedBottomSheetAppBar |
+| fpcblurexpandedbottomsheetappbar | FPCBlurExpandedBottomSheetAppBar |
+| fpcblurblackalwaysscreenappbar | FPCBlurBlackAlwaysScreenAppBar |
+| fpcblurscreenappbar | FPCBlurScreenAppBar |
+| fpcblackalwaysexpandedbottomsheetappbar | FPCBlackAlwaysExpandedBottomSheetAppBar |
+| fpcexpandedbottomsheetappbar | FPCExpandedBottomSheetAppBar |
+| fpcblackalwaysscreenappbar | FPCBlackAlwaysScreenAppBar |
+| fpcscreenappbar | FPCScreenAppBar |
+| class | class |
+| fpcsliverappbar | FPCSliverAppBar |
+|||
+| fpc_badge.json
 | fpccounterbadge | FPCCounterBadge |
 | fpcgradientcounterbadge | FPCGradientCounterBadge |
 | fpcdotbadge | FPCDotBadge |
@@ -199,41 +235,60 @@ Snippets:
 | fpcsuccesslightgradientdotbadge | FPCSuccessLightGradientDotBadge |
 | fpcwarninglightgradientdotbadge | FPCWarningLightGradientDotBadge |
 |||
-| fpc_blur.code-snippets
+| fpc_blur.json
+| fpcblurappbar | FPCBlurAppBar |
+| fpcblurblackalwaysexpandedbottomsheetappbar | FPCBlurBlackAlwaysExpandedBottomSheetAppBar |
+| fpcblurexpandedbottomsheetappbar | FPCBlurExpandedBottomSheetAppBar |
+| fpcblurblackalwaysscreenappbar | FPCBlurBlackAlwaysScreenAppBar |
+| fpcblurscreenappbar | FPCBlurScreenAppBar |
 | fpcblur | FPCBlur |
+| fpcblurblackalwaysexpandedbottomsheet | FPCBlurBlackAlwaysExpandedBottomSheet<T> |
+| fpcblurexpandedbottomsheet | FPCBlurExpandedBottomSheet<T> |
+| fpcblurcard | FPCBlurCard |
+| fpcblurbottomnavigationbar | FPCBlurBottomNavigationBar |
+| fpcblurselectcard | FPCBlurSelectCard |
 |||
-| fpc_bottom_navigation_bar.code-snippets
+| fpc_bottom_navigation_bar.json
 | fpcblurbottomnavigationbar | FPCBlurBottomNavigationBar |
 | fpcbottomnavigationbar | FPCBottomNavigationBar |
 |||
-| fpc_bottom_sheet.code-snippets
-| fpcactionbottomsheet | FPCActionBottomSheet |
-| fpcblurexpandedbottomsheet | FPCBlurExpandedBottomSheet |
-| fpcblackalwaysexpandedbottomsheet | FPCBlackAlwaysExpandedBottomSheet |
-| fpcexpandedbottomsheet | FPCExpandedBottomSheet |
-| fpcsmallbottomsheet | FPCSmallBottomSheet |
+| fpc_bottom_sheet.json
+| fpcblurblackalwaysexpandedbottomsheetappbar | FPCBlurBlackAlwaysExpandedBottomSheetAppBar |
+| fpcblurexpandedbottomsheetappbar | FPCBlurExpandedBottomSheetAppBar |
+| fpcblackalwaysexpandedbottomsheetappbar | FPCBlackAlwaysExpandedBottomSheetAppBar |
+| fpcexpandedbottomsheetappbar | FPCExpandedBottomSheetAppBar |
+| fpcactionbottomsheet | FPCActionBottomSheet<T> |
+| fpcblurexpandedbottomsheet | FPCBlurExpandedBottomSheet<T> |
+| fpcblackalwaysexpandedbottomsheet | FPCBlackAlwaysExpandedBottomSheet<T> |
+| fpcexpandedbottomsheet | FPCExpandedBottomSheet<T> |
+| fpcsmallbottomsheet | FPCSmallBottomSheet<T> |
+| fpccupertinobottomsheetbutton | FPCCupertinoBottomSheetButton |
+| fpcexpandedbottomsheetclosebutton | FPCExpandedBottomSheetCloseButton |
+| fpcsmallbottomsheetclosebutton | FPCSmallBottomSheetCloseButton |
+| fpcwhitealwaysexpandedbottomsheetclosebutton | FPCWhiteAlwaysExpandedBottomSheetCloseButton |
 |||
-| fpc_build_context.code-snippets
+| fpc_build_context.json
 | fpccontextanimation | FPCBuildContextAnimation |
 | fpccontextchangeanimation | FPCBuildContextChangeAnimation |
-| fpccontexttextstyle | FPCBuildContextTextStyle |
-| fpccontextchangetextstyle | FPCBuildContextChangeTextStyle |
-| fpccontexttimeofday | FPCBuildContextTimeOfDay |
-| fpccontextchangetimeofday | FPCBuildContextChangeTimeOfDay |
 | fpccontextdatetime | FPCBuildContextDateTime |
 | fpccontextchangedatetime | FPCBuildContextChangeDateTime |
 | fpccontextduration | FPCBuildContextDuration |
 | fpccontextchangeduration | FPCBuildContextChangeDuration |
-| fpccontextplatform | FPCBuildContextPlatform |
-| fpccontextchangeplatform | FPCBuildContextChangePlatform |
+| fpccontexttextstyle | FPCBuildContextFont |
+| fpccontextchangetextstyle | FPCBuildContextChangeFont |
 | fpccontexthaptic | FPCBuildContextHaptic |
 | fpccontextchangehaptic | FPCBuildContextChangeHaptic |
-| fpccontexttheme | FPCBuildContextTheme |
-| fpccontextchangetheme | FPCBuildContextChangeTheme |
+| fpccontextplatform | FPCBuildContextPlatform |
+| fpccontextchangeplatform | FPCBuildContextChangePlatform |
 | fpccontextsize | FPCBuildContextSize |
 | fpccontextchangesize | FPCBuildContextChangeSize |
+| fpccontexttheme | FPCBuildContextTheme |
+| fpccontextchangetheme | FPCBuildContextChangeTheme |
+| fpccontexttimeofday | FPCBuildContextTimeOfDay |
+| fpccontextchangetimeofday | FPCBuildContextChangeTimeOfDay |
 |||
-| fpc_button.code-snippets
+| fpc_button.json
+| fpcbuttonrowchild | FPCButtonRowChild |
 | fpcbutton | FPCButton |
 | fpcdottedbutton | FPCDottedButton |
 | fpcgradientbutton | FPCGradientButton |
@@ -431,7 +486,7 @@ Snippets:
 | fpckeyboardbutton | FPCKeyboardButton |
 | fpckeyboardnumberbutton | FPCKeyboardNumberButton |
 |||
-| fpc_card.code-snippets
+| fpc_card.json
 | fpccard | FPCCard |
 | fpcdottedcard | FPCDottedCard |
 | fpcgradientcard | FPCGradientCard |
@@ -517,9 +572,9 @@ Snippets:
 | fpcsecondarylightgradientcard | FPCSecondaryLightGradientCard |
 | fpcsuccesslightgradientcard | FPCSuccessLightGradientCard |
 | fpcwarninglightgradientcard | FPCWarningLightGradientCard |
+| fpcdottedselectcard | FPCDottedSelectCard |
 | fpcgradientselectcard | FPCGradientSelectCard |
 | fpcselectcard | FPCSelectCard |
-| fpcselectdottedcard | FPCSelectDottedCard |
 | fpcaccentdarkselectcard | FPCAccentDarkSelectCard |
 | fpcdangerdarkselectcard | FPCDangerDarkSelectCard |
 | fpcgreydarkselectcard | FPCGreyDarkSelectCard |
@@ -550,34 +605,34 @@ Snippets:
 | fpcsecondarylightselectcard | FPCSecondaryLightSelectCard |
 | fpcsuccesslightselectcard | FPCSuccessLightSelectCard |
 | fpcwarninglightselectcard | FPCWarningLightSelectCard |
-| fpcaccentdarkselectdottedcard | FPCAccentDarkSelectDottedCard |
-| fpcdangerdarkselectdottedcard | FPCDangerDarkSelectDottedCard |
-| fpcgreydarkselectdottedcard | FPCGreyDarkSelectDottedCard |
-| fpcinfodarkselectdottedcard | FPCInfoDarkSelectDottedCard |
-| fpcprimarydarkselectdottedcard | FPCPrimaryDarkSelectDottedCard |
-| fpcsecondarydarkselectdottedcard | FPCSecondaryDarkSelectDottedCard |
-| fpcsuccessdarkselectdottedcard | FPCSuccessDarkSelectDottedCard |
-| fpcwarningdarkselectdottedcard | FPCWarningDarkSelectDottedCard |
-| fpcaccentselectdottedcard | FPCAccentSelectDottedCard |
-| fpcblackalwaysselectdottedcard | FPCBlackAlwaysSelectDottedCard |
-| fpcblackselectdottedcard | FPCBlackSelectDottedCard |
-| fpcdangerselectdottedcard | FPCDangerSelectDottedCard |
-| fpcgreyselectdottedcard | FPCGreySelectDottedCard |
-| fpcinfoselectdottedcard | FPCInfoSelectDottedCard |
-| fpcprimaryselectdottedcard | FPCPrimarySelectDottedCard |
-| fpcsecondaryselectdottedcard | FPCSecondarySelectDottedCard |
-| fpcsuccessselectdottedcard | FPCSuccessSelectDottedCard |
-| fpcwarningselectdottedcard | FPCWarningSelectDottedCard |
-| fpcwhitealwaysselectdottedcard | FPCWhiteAlwaysSelectDottedCard |
-| fpcwhiteselectdottedcard | FPCWhiteSelectDottedCard |
-| fpcaccentlightselectdottedcard | FPCAccentLightSelectDottedCard |
-| fpcdangerlightselectdottedcard | FPCDangerLightSelectDottedCard |
-| fpcgreylightselectdottedcard | FPCGreyLightSelectDottedCard |
-| fpcinfolightselectdottedcard | FPCInfoLightSelectDottedCard |
-| fpcprimarylightselectdottedcard | FPCPrimaryLightSelectDottedCard |
-| fpcsecondarylightselectdottedcard | FPCSecondaryLightSelectDottedCard |
-| fpcsuccesslightselectdottedcard | FPCSuccessLightSelectDottedCard |
-| fpcwarninglightselectdottedcard | FPCWarningLightSelectDottedCard |
+| fpcaccentdarkdottedselectcard | FPCAccentDarkDottedSelectCard |
+| fpcdangerdarkdottedselectcard | FPCDangerDarkDottedSelectCard |
+| fpcgreydarkdottedselectcard | FPCGreyDarkDottedSelectCard |
+| fpcinfodarkdottedselectcard | FPCInfoDarkDottedSelectCard |
+| fpcprimarydarkdottedselectcard | FPCPrimaryDarkDottedSelectCard |
+| fpcsecondarydarkdottedselectcard | FPCSecondaryDarkDottedSelectCard |
+| fpcsuccessdarkdottedselectcard | FPCSuccessDarkDottedSelectCard |
+| fpcwarningdarkdottedselectcard | FPCWarningDarkDottedSelectCard |
+| fpcaccentdottedselectcard | FPCAccentDottedSelectCard |
+| fpcblackalwaysdottedselectcard | FPCBlackAlwaysDottedSelectCard |
+| fpcblackdottedselectcard | FPCBlackDottedSelectCard |
+| fpcdangerdottedselectcard | FPCDangerDottedSelectCard |
+| fpcgreydottedselectcard | FPCGreyDottedSelectCard |
+| fpcinfodottedselectcard | FPCInfoDottedSelectCard |
+| fpcprimarydottedselectcard | FPCPrimaryDottedSelectCard |
+| fpcsecondarydottedselectcard | FPCSecondaryDottedSelectCard |
+| fpcsuccessdottedselectcard | FPCSuccessDottedSelectCard |
+| fpcwarningdottedselectcard | FPCWarningDottedSelectCard |
+| fpcwhitealwaysdottedselectcard | FPCWhiteAlwaysDottedSelectCard |
+| fpcwhitedottedselectcard | FPCWhiteDottedSelectCard |
+| fpcaccentlightdottedselectcard | FPCAccentLightDottedSelectCard |
+| fpcdangerlightdottedselectcard | FPCDangerLightDottedSelectCard |
+| fpcgreylightdottedselectcard | FPCGreyLightDottedSelectCard |
+| fpcinfolightdottedselectcard | FPCInfoLightDottedSelectCard |
+| fpcprimarylightdottedselectcard | FPCPrimaryLightDottedSelectCard |
+| fpcsecondarylightdottedselectcard | FPCSecondaryLightDottedSelectCard |
+| fpcsuccesslightdottedselectcard | FPCSuccessLightDottedSelectCard |
+| fpcwarninglightdottedselectcard | FPCWarningLightDottedSelectCard |
 | fpcaccentdarkgradientselectcard | FPCAccentDarkGradientSelectCard |
 | fpcdangerdarkgradientselectcard | FPCDangerDarkGradientSelectCard |
 | fpcgreydarkgradientselectcard | FPCGreyDarkGradientSelectCard |
@@ -603,7 +658,7 @@ Snippets:
 | fpcsuccesslightgradientselectcard | FPCSuccessLightGradientSelectCard |
 | fpcwarninglightgradientselectcard | FPCWarningLightGradientSelectCard |
 |||
-| fpc_checkbox.code-snippets
+| fpc_checkbox.json
 | fpccheckbox | FPCCheckbox |
 | fpcaccentdarkcheckbox | FPCAccentDarkCheckbox |
 | fpcdangerdarkcheckbox | FPCDangerDarkCheckbox |
@@ -634,7 +689,7 @@ Snippets:
 | fpcsuccesslightcheckbox | FPCSuccessLightCheckbox |
 | fpcwarninglightcheckbox | FPCWarningLightCheckbox |
 |||
-| fpc_code_field.code-snippets
+| fpc_code_field.json
 | fpccodefield | FPCCodeField |
 | fpcgradientcodefield | FPCGradientCodeField |
 | fpcaccentdarkcodefield | FPCAccentDarkCodeField |
@@ -684,10 +739,10 @@ Snippets:
 | fpcsuccesslightgradientcodefield | FPCSuccessLightGradientCodeField |
 | fpcwarninglightgradientcodefield | FPCWarningLightGradientCodeField |
 |||
-| fpc_dialog.code-snippets
-| fpcdialog | FPCDialog |
+| fpc_dialog.json
+| fpcdialog | FPCDialog<T> |
 |||
-| fpc_divider.code-snippets
+| fpc_divider.json
 | fpcdivider | FPCDivider |
 | fpcgradientdivider | FPCGradientDivider |
 | fpcaccentdarkdivider | FPCAccentDarkDivider |
@@ -743,7 +798,7 @@ Snippets:
 | fpcsuccesslightgradientdivider | FPCSuccessLightGradientDivider |
 | fpcwarninglightgradientdivider | FPCWarningLightGradientDivider |
 |||
-| fpc_form_field.code-snippets
+| fpc_form_field.json
 | fpcformfield | FPCFormField |
 | fpcgradientformfield | FPCGradientFormField |
 | fpcaccentdarkformfield | FPCAccentDarkFormField |
@@ -792,9 +847,8 @@ Snippets:
 | fpcsecondarylightgradientformfield | FPCSecondaryLightGradientFormField |
 | fpcsuccesslightgradientformfield | FPCSuccessLightGradientFormField |
 | fpcwarninglightgradientformfield | FPCWarningLightGradientFormField |
-| fpctextformfield | FPCTextFormField |
 |||
-| fpc_global.code-snippets
+| fpc_global.json
 | fpcshowexpandedbottomsheet | FPCShowExpandedBottomSheet |
 | fpcshowsmallbottomsheet | FPCShowSmallBottomSheet |
 | fpcshowdialog | FPCShowDialog |
@@ -803,7 +857,8 @@ Snippets:
 | fpcshowsnackbar | FPCShowSnackBar |
 | fpchidesnackbar | FPCHideSnackBar |
 |||
-| fpc_icon.code-snippets
+| fpc_icon.json
+| fpciconbutton | FPCIconButton |
 | fpcaccentdarkicon | FPCAccentDarkIcon |
 | fpcaccenticon | FPCAccentIcon |
 | fpcaccentinternalicon | FPCAccentInternalIcon |
@@ -970,7 +1025,7 @@ Snippets:
 | fpcwarninggradientsmallicon | FPCWarningGradientSmallIcon |
 | fpcwarninglightgradientsmallicon | FPCWarningLightGradientSmallIcon |
 |||
-| fpc_indicator.code-snippets
+| fpc_indicator.json
 | fpccircularindicator | FPCCircularIndicator |
 | fpcgradientcircularindicator | FPCGradientCircularIndicator |
 | fpcgradientpageindicator | FPCGradientPageIndicator |
@@ -1243,29 +1298,34 @@ Snippets:
 | fpcsuccesslightstoryindicator | FPCSuccessLightStoryIndicator |
 | fpcwarninglightstoryindicator | FPCWarningLightStoryIndicator |
 |||
-| fpc_keyboard.code-snippets
+| fpc_keyboard.json
 | fpckeyboard | FPCKeyboard |
+| fpckeyboardbutton | FPCKeyboardButton |
+| fpckeyboardnumberbutton | FPCKeyboardNumberButton |
 |||
-| fpc_list.code-snippets
+| fpc_list.json
 | fpclistview | FPCListView |
 | fpclistrefresh | FPCListRefresh |
 | fpclistsection | FPCListSection |
 |||
-| fpc_list_view.code-snippets
+| fpc_list_view.json
 | fpclistview | FPCListView |
 |||
-| fpc_navigator.code-snippets
+| fpc_navigator.json
 | fpccupertinonavigator | FPCCupertinoNavigator |
 | fpcnavigator | FPCNavigator |
 |||
-| fpc_padding.code-snippets
+| fpc_padding.json
+| fpcanimatedpadding | FPCAnimatedPadding |
+| fpcanimatedfastpadding | FPCAnimatedFastPadding |
+| fpcanimatedslowpadding | FPCAnimatedSlowPadding |
 | fpcpadding | FPCPadding |
 |||
-| fpc_picker.code-snippets
+| fpc_picker.json
 | fpcdatepicker | FPCDatePicker |
 | fpctimepicker | FPCTimePicker |
 |||
-| fpc_pin_field.code-snippets
+| fpc_pin_field.json
 | fpcgradientpinfield | FPCGradientPINField |
 | fpcpinfield | FPCPINField |
 | fpcaccentdarkpinfield | FPCAccentDarkPINField |
@@ -1315,7 +1375,10 @@ Snippets:
 | fpcsuccesslightgradientpinfield | FPCSuccessLightGradientPINField |
 | fpcwarninglightgradientpinfield | FPCWarningLightGradientPINField |
 |||
-| fpc_radio.code-snippets
+| fpc_pop_up_menu.json
+| fpcpopupmenu | FPCPopUpMenu |
+|||
+| fpc_radio.json
 | fpcradio | FPCRadio<T> |
 | fpcaccentdarkradio | FPCAccentDarkRadio<T> |
 | fpcdangerdarkradio | FPCDangerDarkRadio<T> |
@@ -1344,14 +1407,14 @@ Snippets:
 | fpcsuccesslightradio | FPCSuccessLightRadio<T> |
 | fpcwarninglightradio | FPCWarningLightRadio<T> |
 |||
-| fpc_scaffold.code-snippets
+| fpc_scaffold.json
 | fpcscaffold | FPCScaffold |
 |||
-| fpc_scrollbar.code-snippets
+| fpc_scrollbar.json
 | fpcmaterialscrollbar | FPCMaterialScrollbar |
 | fpcscrollbar | FPCScrollbar |
 |||
-| fpc_segment_control.code-snippets
+| fpc_segment_control.json
 | fpcgradientsegmentcontrol | FPCGradientSegmentControl<T> |
 | fpcsegmentcontrol | FPCSegmentControl<T> |
 | fpcaccentdarksegmentcontrol | FPCAccentDarkSegmentControl<T> |
@@ -1435,7 +1498,8 @@ Snippets:
 | fpcsuccesslightslidingsegmentcontrol | FPCSuccessLightSlidingSegmentControl<T> |
 | fpcwarninglightslidingsegmentcontrol | FPCWarningLightSlidingSegmentControl<T> |
 |||
-| fpc_select_card.code-snippets
+| fpc_select_card.json
+| fpcdottedselectcard | FPCDottedSelectCard |
 | fpcgradientselectcard | FPCGradientSelectCard |
 | fpcselectcard | FPCSelectCard |
 | fpcaccentdarkselectcard | FPCAccentDarkSelectCard |
@@ -1468,6 +1532,34 @@ Snippets:
 | fpcsecondarylightselectcard | FPCSecondaryLightSelectCard |
 | fpcsuccesslightselectcard | FPCSuccessLightSelectCard |
 | fpcwarninglightselectcard | FPCWarningLightSelectCard |
+| fpcaccentdarkdottedselectcard | FPCAccentDarkDottedSelectCard |
+| fpcdangerdarkdottedselectcard | FPCDangerDarkDottedSelectCard |
+| fpcgreydarkdottedselectcard | FPCGreyDarkDottedSelectCard |
+| fpcinfodarkdottedselectcard | FPCInfoDarkDottedSelectCard |
+| fpcprimarydarkdottedselectcard | FPCPrimaryDarkDottedSelectCard |
+| fpcsecondarydarkdottedselectcard | FPCSecondaryDarkDottedSelectCard |
+| fpcsuccessdarkdottedselectcard | FPCSuccessDarkDottedSelectCard |
+| fpcwarningdarkdottedselectcard | FPCWarningDarkDottedSelectCard |
+| fpcaccentdottedselectcard | FPCAccentDottedSelectCard |
+| fpcblackalwaysdottedselectcard | FPCBlackAlwaysDottedSelectCard |
+| fpcblackdottedselectcard | FPCBlackDottedSelectCard |
+| fpcdangerdottedselectcard | FPCDangerDottedSelectCard |
+| fpcgreydottedselectcard | FPCGreyDottedSelectCard |
+| fpcinfodottedselectcard | FPCInfoDottedSelectCard |
+| fpcprimarydottedselectcard | FPCPrimaryDottedSelectCard |
+| fpcsecondarydottedselectcard | FPCSecondaryDottedSelectCard |
+| fpcsuccessdottedselectcard | FPCSuccessDottedSelectCard |
+| fpcwarningdottedselectcard | FPCWarningDottedSelectCard |
+| fpcwhitealwaysdottedselectcard | FPCWhiteAlwaysDottedSelectCard |
+| fpcwhitedottedselectcard | FPCWhiteDottedSelectCard |
+| fpcaccentlightdottedselectcard | FPCAccentLightDottedSelectCard |
+| fpcdangerlightdottedselectcard | FPCDangerLightDottedSelectCard |
+| fpcgreylightdottedselectcard | FPCGreyLightDottedSelectCard |
+| fpcinfolightdottedselectcard | FPCInfoLightDottedSelectCard |
+| fpcprimarylightdottedselectcard | FPCPrimaryLightDottedSelectCard |
+| fpcsecondarylightdottedselectcard | FPCSecondaryLightDottedSelectCard |
+| fpcsuccesslightdottedselectcard | FPCSuccessLightDottedSelectCard |
+| fpcwarninglightdottedselectcard | FPCWarningLightDottedSelectCard |
 | fpcaccentdarkgradientselectcard | FPCAccentDarkGradientSelectCard |
 | fpcdangerdarkgradientselectcard | FPCDangerDarkGradientSelectCard |
 | fpcgreydarkgradientselectcard | FPCGreyDarkGradientSelectCard |
@@ -1493,11 +1585,12 @@ Snippets:
 | fpcsuccesslightgradientselectcard | FPCSuccessLightGradientSelectCard |
 | fpcwarninglightgradientselectcard | FPCWarningLightGradientSelectCard |
 |||
-| fpc_select_field.code-snippets
+| fpc_select_field.json
+| fpcselectfieldwrapper | FPCSelectFieldWrapper |
 | fpcgradientselectfield | FPCGradientSelectField |
 | fpcselectfield | FPCSelectField |
 |||
-| fpc_shimmer.code-snippets
+| fpc_shimmer.json
 | fpcgradientshimmer | FPCGradientShimmer |
 | fpcshimmer | FPCShimmer |
 | fpcaccentdarkshimmer | FPCAccentDarkShimmer |
@@ -1533,7 +1626,7 @@ Snippets:
 | fpcsuccessgradientshimmer | FPCSuccessGradientShimmer |
 | fpcwarninggradientshimmer | FPCWarningGradientShimmer |
 |||
-| fpc_slider.code-snippets
+| fpc_slider.json
 | fpcslider | FPCSlider |
 | fpcaccentdarkslider | FPCAccentDarkSlider |
 | fpcdangerdarkslider | FPCDangerDarkSlider |
@@ -1561,7 +1654,7 @@ Snippets:
 | fpcsuccesslightslider | FPCSuccessLightSlider |
 | fpcwarninglightslider | FPCWarningLightSlider |
 |||
-| fpc_sliding_segment_control.code-snippets
+| fpc_sliding_segment_control.json
 | fpcslidingsegmentcontrol | FPCSlidingSegmentControl<T> |
 | fpcaccentdarkslidingsegmentcontrol | FPCAccentDarkSlidingSegmentControl<T> |
 | fpcdangerdarkslidingsegmentcontrol | FPCDangerDarkSlidingSegmentControl<T> |
@@ -1591,10 +1684,10 @@ Snippets:
 | fpcsuccesslightslidingsegmentcontrol | FPCSuccessLightSlidingSegmentControl<T> |
 | fpcwarninglightslidingsegmentcontrol | FPCWarningLightSlidingSegmentControl<T> |
 |||
-| fpc_sliver_app_bar.code-snippets
+| fpc_sliver_app_bar.json
 | fpcsliverappbar | FPCSliverAppBar |
 |||
-| fpc_snack_bar.code-snippets
+| fpc_snack_bar.json
 | fpcgradientsnackbar | FPCGradientSnackBar |
 | fpcsnackbar | FPCSnackBar |
 | fpcaccentdarksnackbar | FPCAccentDarkSnackBar |
@@ -1666,7 +1759,13 @@ Snippets:
 | fpcsuccessgradientoutlinesnackbar | FPCSuccessGradientOutlineSnackBar |
 | fpcwarninggradientoutlinesnackbar | FPCWarningGradientOutlineSnackBar |
 |||
-| fpc_switch.code-snippets
+| fpc_switch.json
+| fpcanimatedswitcher | FPCAnimatedSwitcher |
+| fpcanimatedtransitionswitcher | FPCAnimatedTransitionSwitcher |
+| fpcanimatedfastswitcher | FPCAnimatedFastSwitcher |
+| fpcanimatedfasttransitionswitcher | FPCAnimatedFastTransitionSwitcher |
+| fpcanimatedslowswitcher | FPCAnimatedSlowSwitcher |
+| fpcanimatedslowtransitionswitcher | FPCAnimatedSlowTransitionSwitcher |
 | fpcswitch | FPCSwitch |
 | fpcaccentdarkswitch | FPCAccentDarkSwitch |
 | fpcdangerdarkswitch | FPCDangerDarkSwitch |
@@ -1695,7 +1794,7 @@ Snippets:
 | fpcsuccesslightswitch | FPCSuccessLightSwitch |
 | fpcwarninglightswitch | FPCWarningLightSwitch |
 |||
-| fpc_toggle.code-snippets
+| fpc_toggle.json
 | fpcgradienttoggle | FPCGradientToggle<T> |
 | fpctoggle | FPCToggle<T> |
 | fpcaccentdarktoggle | FPCAccentDarkToggle<T> |

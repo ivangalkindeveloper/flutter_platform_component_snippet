@@ -1,3 +1,6 @@
+## 2.0.0
+* New major versio of main package.
+
 ## 1.0.6
 * Fix properties.
 

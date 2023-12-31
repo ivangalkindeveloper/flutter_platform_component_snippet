@@ -8,16 +8,11 @@
       "class ${name}MaterialScrollbar extends StatelessWidget {",
       "  const ${name}MaterialScrollbar({",
       "    super.key,",
-      "    required this.super.child,",
       "  });",
-      "",
-      "  final super.child;",
       "",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return FPCMaterialScrollbar(",
-      "      super.child: this.super.child,",
-      "    );",
+      "    return const FPCMaterialScrollbar();",
       "  }",
       "}"
     ]

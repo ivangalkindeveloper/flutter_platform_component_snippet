@@ -3,7 +3,7 @@
   "displayName": "Flutter Platform Component Snippet",
   "description": "Fast snippets for flutter_platform_component package.",
   "icon": "asset/logo.png",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "publisher": "IvanGalkin",
   "license": "MIT",
   "engines": {
@@ -127,6 +127,10 @@
       {
         "language": "dart",
         "path": "./snippet/fpc_pin_field.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippet/fpc_pop_up_menu.json"
       },
       {
         "language": "dart",

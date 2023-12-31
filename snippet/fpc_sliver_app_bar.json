@@ -5,15 +5,10 @@
       "import 'package:flutter_platform_component/flutter_platform_component.dart';",
       "import 'package:flutter/widgets.dart';",
       "",
-      "class ${name}SliverAppBar extends StatelessWidget {",
-      "  const ${name}SliverAppBar({",
-      "    super.key,",
-      "  });",
-      "",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return const FPCSliverAppBar();",
-      "  }",
+      "class ${name}SliverAppBar extends FPCSliverAppBar {",
+      "  const ${name}SliverAppBar(",
+      "    super.context,",
+      "  );",
       "}"
     ]
   }

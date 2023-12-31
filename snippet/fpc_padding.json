@@ -1,4 +1,82 @@
 {
+  "FPCAnimatedPadding": {
+    "prefix": "fpcanimatedpadding",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AnimatedPadding extends StatelessWidget {",
+      "  const ${name}AnimatedPadding({",
+      "    super.key,",
+      "    required this.padding,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final EdgeInsetsGeometry padding;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCAnimatedPadding(",
+      "      padding: this.padding,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAnimatedFastPadding": {
+    "prefix": "fpcanimatedfastpadding",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AnimatedFastPadding extends StatelessWidget {",
+      "  const ${name}AnimatedFastPadding({",
+      "    super.key,",
+      "    required this.padding,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final EdgeInsetsGeometry padding;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCAnimatedFastPadding(",
+      "      padding: this.padding,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "FPCAnimatedSlowPadding": {
+    "prefix": "fpcanimatedslowpadding",
+    "body": [
+      "import 'package:flutter_platform_component/flutter_platform_component.dart';",
+      "import 'package:flutter/widgets.dart';",
+      "",
+      "class ${name}AnimatedSlowPadding extends StatelessWidget {",
+      "  const ${name}AnimatedSlowPadding({",
+      "    super.key,",
+      "    required this.padding,",
+      "    required this.child,",
+      "  });",
+      "",
+      "  final EdgeInsetsGeometry padding;",
+      "  final Widget child;",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return FPCAnimatedSlowPadding(",
+      "      padding: this.padding,",
+      "      child: this.child,",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
   "FPCPadding": {
     "prefix": "fpcpadding",
     "body": [
